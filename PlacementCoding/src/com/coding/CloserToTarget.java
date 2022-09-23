@@ -19,7 +19,7 @@ public class CloserToTarget {
 
     public static int searchTriplet(int[] arr, int targetSum) {
 
-        int minDiff=9999;
+        int minDiff=9999,smallestSum;
         int sum=0;
         Arrays.sort(arr);
         // TODO: Write your code here
@@ -36,6 +36,13 @@ public class CloserToTarget {
                 if(Math.abs(diff)<minDiff){
                     minDiff=diff;
                     sum=arr[i]+arr[start]+arr[end];
+                }
+                else if(Math.abs(diff)==minDiff){
+                    smallestSum=sum;
+                    sum=arr[i]+arr[start]+arr[end];
+                    if(smallestSum<sum){
+                        sum=smallestSum;
+                    }
                 }
                 if(diff>0)
                     // bcoz to make diff smaller sum has to be bigger, so start++;
