@@ -42,8 +42,8 @@ public class LongestSubarrayAfterReplacement {
     }
 
     public static void main(String[] args){
-        String str="abbcd";
-        int val=findLength(str,1);
+        String str="abecbbj";
+        int val=findLength(str,2);
         System.out.println(val);
     }
 }
