@@ -1,4 +1,4 @@
-package com.coding;
+package com.coding.day0;
 
 /**
  * Given an array of n positive integers and a number k. Find the minimum number of swaps

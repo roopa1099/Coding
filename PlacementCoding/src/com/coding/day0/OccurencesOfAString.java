@@ -1,4 +1,4 @@
-package com.coding;
+package com.coding.day0;
 
 import java.util.ArrayList;
 

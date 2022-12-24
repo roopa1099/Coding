@@ -1,4 +1,4 @@
-package com.coding;
+package com.coding.day0;
 
 /**
  * Question:Given an array arr[] of size N, the task is to find the maximum possible sum of i*arr[i]

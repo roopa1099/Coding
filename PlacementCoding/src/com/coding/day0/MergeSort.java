@@ -1,4 +1,4 @@
-package com.coding;
+package com.coding.day0;
 
 /**
  * Mergesort=> D&C and merge tn=nLogn

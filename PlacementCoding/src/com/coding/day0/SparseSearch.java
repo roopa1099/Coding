@@ -1,4 +1,4 @@
-package com.coding;
+package com.coding.day0;
 
 /**
  * Given a sorted array containg spaces, find positio of given string.

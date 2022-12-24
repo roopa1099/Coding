@@ -1,4 +1,4 @@
-package com.coding;
+package com.coding.string;
 
 import java.util.HashMap;
 import java.util.Map;

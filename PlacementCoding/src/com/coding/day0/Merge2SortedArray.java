@@ -1,4 +1,4 @@
-package com.coding;
+package com.coding.day0;
 
 /**
  * Given 2 sorted array, merge them such that the elements are in X and Y

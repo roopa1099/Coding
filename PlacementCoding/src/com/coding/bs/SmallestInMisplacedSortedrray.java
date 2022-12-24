@@ -1,4 +1,4 @@
-package com.coding;
+package com.coding.bs;
 
 /**
  ************* Can reduce if condiitons******************

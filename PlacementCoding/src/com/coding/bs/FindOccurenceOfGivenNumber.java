@@ -1,4 +1,4 @@
-package com.coding;
+package com.coding.bs;
 
 /**
  * Given a sorted integer array containing duplicates, count occurrences of a given number. 

@@ -1,4 +1,4 @@
-package com.coding;
+package com.coding.day0;
 
 /**
  * An ugly number is a positive integer that is divisible by a, b, or c.

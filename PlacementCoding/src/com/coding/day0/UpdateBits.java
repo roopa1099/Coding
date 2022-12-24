@@ -1,4 +1,4 @@
-package com.coding;
+package com.coding.day0;
 /**
 Update ith bit to either 1 or 0 dependin on the current bit 
  */

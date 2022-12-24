@@ -5,7 +5,7 @@
  */
 
 
-package com.coding;
+package com.coding.day0;
 
 public class TwoPairSumRotatedArray {
 

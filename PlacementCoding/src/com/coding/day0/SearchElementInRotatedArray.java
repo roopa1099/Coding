@@ -3,7 +3,7 @@
  *
  *         Note: Find the element in O(logN) time and assume that all the elements are distinct.
  */
-package com.coding;
+package com.coding.day0;
 
 public class SearchElementInRotatedArray {
 

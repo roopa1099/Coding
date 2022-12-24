@@ -1,4 +1,4 @@
-package com.coding;
+package com.coding.day0;
 
 /**
  * Given two strings needle and haystack, return the index of the first occurrence of needle in

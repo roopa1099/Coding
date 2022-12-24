@@ -1,4 +1,4 @@
-package com.coding;
+package com.coding.day0;
 /**
  * Given an array of n elements. Our task is to write a program to rearrange the array such that elements at even positions are greater than all elements before it and elements at odd positions are less than all elements before it.
  * Examples:

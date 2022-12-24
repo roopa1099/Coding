@@ -1,4 +1,4 @@
-package com.coding;
+package com.coding.day0;
 
 /**
  * An array contains both positive and negative numbers in random order. Rearrange

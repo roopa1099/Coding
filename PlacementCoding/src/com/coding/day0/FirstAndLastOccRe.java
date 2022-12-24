@@ -1,4 +1,4 @@
-package com.coding;
+package com.coding.day0;
 
 /**
  * First and last occurebnce of givern chanaracter i word

@@ -1,4 +1,4 @@
-package com.coding;
+package com.coding.bs;
 
 /**
  * Given a circularly sorted integer array, find the total number of times the array is rotated. Assume

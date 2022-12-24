@@ -1,4 +1,4 @@
-package com.coding;
+package com.coding.day0;
 
 /**
  * Find max length possible for a mountains peak, a peak is a sequnace of consecutively

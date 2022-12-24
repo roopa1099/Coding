@@ -1,4 +1,4 @@
-package com.coding;
+package com.coding.day0;
 
 /**
  * Given an array of elements of length N, ranging from 0 to N – 1. All elements may

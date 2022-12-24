@@ -4,7 +4,7 @@
  * Auxiliary Space: O(log N)  [this is the space of recursion stack]
  */
 
-package com.coding;
+package com.coding.day0;
 
 public class RightRotation {
 

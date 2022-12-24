@@ -1,4 +1,4 @@
-package com.coding;
+package com.coding.day0;
 
 public class SampleTest {
     public static int countPrimes(int n) {

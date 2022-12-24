@@ -1,4 +1,4 @@
-package com.coding;
+package com.coding.day0;
 
 /**
  * in string if u keep adding new val like str+"ab" in JAVA, everytime, new string is created and creation

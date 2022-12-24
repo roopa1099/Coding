@@ -1,4 +1,4 @@
-package com.coding;
+package com.coding.day0;
 
 /**
  * Given an array A of n elements, sort the array according to the following relations :

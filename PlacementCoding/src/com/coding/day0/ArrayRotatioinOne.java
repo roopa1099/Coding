@@ -1,4 +1,4 @@
-package com.coding;
+package com.coding.day0;
 /**
  * Given an array arr[] of size N, the task is to rotate the array by d position to the left.
  *         Examples:

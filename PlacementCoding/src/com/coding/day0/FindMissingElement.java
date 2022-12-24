@@ -1,4 +1,4 @@
-package com.coding;
+package com.coding.day0;
 
 /**
  * We are given an array containing n distinct numbers taken from the range 0 to n.

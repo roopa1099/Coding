@@ -1,4 +1,4 @@
-package com.coding;
+package com.coding.day0;
 
 /**
  * Given an array containing 0s, 1s and 2s, sort the array in-place. You should treat

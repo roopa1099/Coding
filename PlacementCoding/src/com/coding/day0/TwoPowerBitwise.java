@@ -1,4 +1,4 @@
-package com.coding;
+package com.coding.day0;
 
 /**
   * Find out wherther numbe is power of 2;

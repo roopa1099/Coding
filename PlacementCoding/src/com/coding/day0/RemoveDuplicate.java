@@ -1,4 +1,4 @@
-package com.coding;
+package com.coding.day0;
 
 /**
  * Given an array of sorted numbers, remove all duplicate number instances from it in-place,

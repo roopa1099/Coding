@@ -1,4 +1,4 @@
-package com.coding;
+package com.coding.day0;
 
 /**
  * Given a list of non-negative integers, find the minimum number of merge operations to make it

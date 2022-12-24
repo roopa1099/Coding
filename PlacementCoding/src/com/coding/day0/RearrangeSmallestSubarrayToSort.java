@@ -1,4 +1,4 @@
-package com.coding;
+package com.coding.day0;
 
 /**
  * Given an array, find the length of the smallest subarray in it which when sorted will

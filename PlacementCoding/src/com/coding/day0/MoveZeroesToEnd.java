@@ -1,4 +1,4 @@
-package com.coding;
+package com.coding.day0;
 
 /**
  * Given an array of n numbers. The problem is to move all the 0’s to the end of the array while

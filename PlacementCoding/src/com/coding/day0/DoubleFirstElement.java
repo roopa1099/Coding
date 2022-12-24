@@ -1,4 +1,4 @@
-package com.coding;
+package com.coding.day0;
 
 /**
  * For a given array of n integers and assume that ‘0’ is an invalid number and all others as a

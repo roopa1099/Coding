@@ -1,4 +1,4 @@
-package com.coding;
+package com.coding.day0;
 
 /**
  * 1. Pivot element 2. Based on pivot divide 3. and do swap pivot element, Recursive call.

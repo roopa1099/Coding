@@ -1,4 +1,4 @@
-package com.coding;
+package com.coding.day0;
 
 public class RecSorted {
     public static boolean isSorted(int[] array, int index){

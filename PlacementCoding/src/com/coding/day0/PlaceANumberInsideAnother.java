@@ -1,4 +1,4 @@
-package com.coding;
+package com.coding.day0;
 // Not correct
 /**
  * Given a 32bit number M and N. Given 2 position i and j. Replace te i to j index of N with M.
