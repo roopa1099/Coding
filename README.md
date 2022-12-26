@@ -26,3 +26,7 @@
 - [ find the odd occurring element in logarithmic time and constant space.](./PlacementCoding/src/com/coding/bs/OddOccuringElement.java)
 
 - [find the floor and ceiling of a given number in it.](./PlacementCoding/src/com/coding/bs/FloorAndCeilngOfNumber.java)
+
+
+## Matrix
+- [Given an M × N integer matrix, print it in spiral order.](./PlacementCoding/src/com/coding/matrix/SpiralPrint.java)
