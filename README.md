@@ -30,3 +30,11 @@
 
 ## Matrix
 - [Given an M × N integer matrix, print it in spiral order.](./PlacementCoding/src/com/coding/matrix/SpiralPrint.java)
+
+- [report all occurrences of a given element in it in linear time.](./PlacementCoding/src/com/coding/matrix/OccurrenceOfTarget.java)
+
+- [Given a square matrix, rotate the matrix by 90 degrees in a clockwise direction.](./PlacementCoding/src/com/coding/matrix/RotateMatrix.java)
+
+- [Given an M × N integer matrix, print all its diagonal elements having a positive slope.](./PlacementCoding/src/com/coding/matrix/PositiveSlopeELements.java)
+
+- [Given an M × N matrix consisting of only 0 or 1, change all elements of row i and column j to 0 if  cell (i, j)  has value 0.](./PlacementCoding/src/com/coding/matrix/Convert1To0.java)
