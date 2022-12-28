@@ -38,3 +38,9 @@
 - [Given an M × N integer matrix, print all its diagonal elements having a positive slope.](./PlacementCoding/src/com/coding/matrix/PositiveSlopeELements.java)
 
 - [Given an M × N matrix consisting of only 0 or 1, change all elements of row i and column j to 0 if  cell (i, j)  has value 0.](./PlacementCoding/src/com/coding/matrix/Convert1To0.java)
+
+- [Given an M × N matrix, check if it is a Toeplitz matrix or not.](./PlacementCoding/src/com/coding/matrix/ToeplitzClass.java)
+
+- [ Calculate the sum of all elements present in the submatrix.](./PlacementCoding/src/com/coding/matrix/SubmatrixSum.java)
+
+- [Find duplicate rows present in a given binary matrix by traversing the matrix only once.](./PlacementCoding/src/com/coding/matrix/DuplicateBinaryMatrix.java)
