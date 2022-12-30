@@ -44,3 +44,12 @@
 - [ Calculate the sum of all elements present in the submatrix.](./PlacementCoding/src/com/coding/matrix/SubmatrixSum.java)
 
 - [Find duplicate rows present in a given binary matrix by traversing the matrix only once.](./PlacementCoding/src/com/coding/matrix/DuplicateBinaryMatrix.java)
+
+## Linkedlist
+- [Write a function that takes a singly linked list and returns a complete copy of that list.](./PlacementCoding/src/com/coding/pointer/CopyLL.java)
+
+- [Delete node in linked list](./PlacementCoding/src/com/coding/pointer/PointerDemo.java)
+
+- [Write a pop() function that is the inverse of push().](./PlacementCoding/src/com/coding/pointer/PopLL.java)
+
+- [Given a sorted list in increasing order and a single node, insert the node into the list’s correct sorted position. The function should take an existing node and rearranges pointers to insert it into the list.](./PlacementCoding/src/com/coding/pointer/InsertIntoSortedLinkedList.java)

@@ -1,5 +1,8 @@
 package com.coding.pointer;
 
+/**
+ * Delete node
+ */
 public class PointerDemo {
     TestNode node;
     TestNode head;
