@@ -53,3 +53,13 @@
 - [Write a pop() function that is the inverse of push().](./PlacementCoding/src/com/coding/pointer/PopLL.java)
 
 - [Given a sorted list in increasing order and a single node, insert the node into the list’s correct sorted position. The function should take an existing node and rearranges pointers to insert it into the list.](./PlacementCoding/src/com/coding/pointer/InsertIntoSortedLinkedList.java)
+
+- [Given a linked list, write a function to rearrange its nodes to be sorted in increasing order.](./PlacementCoding/src/com/coding/pointer/SortLinkedList.java)
+
+- [Write a function that removes duplicate nodes from it by traversing the list only once.](./PlacementCoding/src/com/coding/pointer/RemoveDuplicate.java)
+
+- [Given a linked list of integers, split it into two lists containing alternating elements from the original list.](./PlacementCoding/src/com/coding/pointer/SplitLinkedList.java)
+
+- [Rearrange a given linked list such that every even node will be moved to the end of the list in reverse order.](./PlacementCoding/src/com/coding/pointer/ReverseEvenPosition.java)
+
+- [Given two lists sorted in increasing order, return a new list representing their intersection.](./PlacementCoding/src/com/coding/pointer/IntersectionOfTwoLL.java);
