@@ -62,4 +62,6 @@
 
 - [Rearrange a given linked list such that every even node will be moved to the end of the list in reverse order.](./PlacementCoding/src/com/coding/pointer/ReverseEvenPosition.java)
 
-- [Given two lists sorted in increasing order, return a new list representing their intersection.](./PlacementCoding/src/com/coding/pointer/IntersectionOfTwoLL.java);
+- [Given two lists sorted in increasing order, return a new list representing their intersection.](./PlacementCoding/src/com/coding/pointer/IntersectionOfTwoLL.java)
+
+- [ Write a function that takes two lists, each of which is sorted in increasing order, and merges the two into a single list in increasing order, and returns it.](./PlacementCoding/src/com/coding/pointer/MergeTwoSortedLL.java)
