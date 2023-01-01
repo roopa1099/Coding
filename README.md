@@ -65,3 +65,7 @@
 - [Given two lists sorted in increasing order, return a new list representing their intersection.](./PlacementCoding/src/com/coding/pointer/IntersectionOfTwoLL.java)
 
 - [ Write a function that takes two lists, each of which is sorted in increasing order, and merges the two into a single list in increasing order, and returns it.](./PlacementCoding/src/com/coding/pointer/MergeTwoSortedLL.java)
+
+- [Given a linked list and a positive integer k, find the k'th node from the end of the list. Single travrsal](./PlacementCoding/src/com/coding/pointer/KthElementFromEnd.java)
+
+- [Given a linked list containing 0's, 1's, and 2's, sort the linked list](./PlacementCoding/src/com/coding/pointer/Sort0sAnd1s.java)
