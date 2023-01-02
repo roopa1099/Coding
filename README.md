@@ -69,3 +69,5 @@
 - [Given a linked list and a positive integer k, find the k'th node from the end of the list. Single travrsal](./PlacementCoding/src/com/coding/pointer/KthElementFromEnd.java)
 
 - [Given a linked list containing 0's, 1's, and 2's, sort the linked list](./PlacementCoding/src/com/coding/pointer/Sort0sAnd1s.java)
+
+- [Given a linked list, check if it is a palindrome or not.](./PlacementCoding/src/com/coding/pointer/Pallindrome.java)
