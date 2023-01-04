@@ -80,3 +80,9 @@
 
 - [Stack](./PlacementCoding/src/com/coding/pointer/StackLL.java)
 
+
+## Double Linked List
+
+- [Insert, delete in double linked list.](./PlacementCoding/src/com/coding/doublelinkedlist/DoubleLinkedList.java)
+
+- [Reverse a doubly linked list using iteration and recursion.](./PlacementCoding/src/com/coding/doublelinkedlist/ReverseLL.java)
