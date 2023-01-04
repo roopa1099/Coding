@@ -75,3 +75,8 @@
 - [Given two linked lists, where the tail of the second list points to a node in the first list, find the node where both lists intersect.](./PlacementCoding/src/com/coding/pointer/IntersectionOfLinkedList.java)
 
 - [**Given a linked list of integers, which may contain a cycle, remove the cycle if present.**](./PlacementCoding/src/com/coding/pointer/LinkedListWithLoop.java)
+
+- [Queue](./PlacementCoding/src/com/coding/pointer/QueueLL.java)
+
+- [Stack](./PlacementCoding/src/com/coding/pointer/StackLL.java)
+
