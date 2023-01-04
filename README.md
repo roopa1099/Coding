@@ -86,3 +86,6 @@
 - [Insert, delete in double linked list.](./PlacementCoding/src/com/coding/doublelinkedlist/DoubleLinkedList.java)
 
 - [Reverse a doubly linked list using iteration and recursion.](./PlacementCoding/src/com/coding/doublelinkedlist/ReverseLL.java)
+
+
+- [Sort the double linked list](./PlacementCoding/src/com/coding/doublelinkedlist/SortList.java)
