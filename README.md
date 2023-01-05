@@ -89,3 +89,5 @@
 
 
 - [Sort the double linked list](./PlacementCoding/src/com/coding/doublelinkedlist/SortList.java)
+
+- [Dequeue implementation using double LL](./PlacementCoding/src/com/coding/doublelinkedlist/DequeueLL.java)
