@@ -9,6 +9,10 @@
 
 - [find the shortest unique prefix to identify each word in the array uniquely.](./PlacementCoding/src/com/coding/string/SmaleestCommonPrefix.java)
 
+- [ Find all substrings of a string that contains all characters of another string.](./PlacementCoding/src/com/coding/string/com/coding/string/AllPossiblePermutaion.java)
+
+- [Given a string, find the longest substring containing distinct characters.](./PlacementCoding/src/com/coding/string/com/coding/string/LongestDistinctSubstring.java)
+
 
 ## Binary Search
 - [find the k closest elements to target in the array where k and target are given positive integers.](./PlacementCoding/src/com/coding/bs/KNearestElement.java)
