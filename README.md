@@ -13,6 +13,8 @@
 
 - [Given a string, find the longest substring containing distinct characters.](./PlacementCoding/src/com/coding/string/com/coding/string/LongestDistinctSubstring.java)
 
+- [**Given a string, find the maximum length contiguous substring of it that is also a palindrome.**](./PlacementCoding/src/com/coding/string/com/coding/string/LongestPallindrome.java)
+
 
 ## Binary Search
 - [find the k closest elements to target in the array where k and target are given positive integers.](./PlacementCoding/src/com/coding/bs/KNearestElement.java)
