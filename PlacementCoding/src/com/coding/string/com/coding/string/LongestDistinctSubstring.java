@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * 
+ * 09-Jan
  * Given a string, find the longest substring containing distinct characters.
  */
 public class LongestDistinctSubstring {

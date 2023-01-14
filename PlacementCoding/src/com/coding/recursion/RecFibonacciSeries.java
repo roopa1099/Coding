@@ -1,5 +1,8 @@
 package com.coding.recursion;
 
+/**
+ * FibonacciSeries using recusrion
+ */
 public class RecFibonacciSeries {
 
     public static void fibonacci(int a,int b, int n,int seq){

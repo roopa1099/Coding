@@ -97,3 +97,20 @@
 - [Sort the double linked list](./PlacementCoding/src/com/coding/doublelinkedlist/SortList.java)
 
 - [Dequeue implementation using double LL](./PlacementCoding/src/com/coding/doublelinkedlist/DequeueLL.java)
+
+
+## Recursion
+
+- [Binary search using recursion](./PlacementCoding/src/com/coding/recursion/RecBinarySearch.java)
+
+- [Reverse array using recursion](./PlacementCoding/src/com/coding/recursion/RecArrayReverse.java)
+
+- [Check if number is pallindrome](./PlacementCoding/src/com/coding/recursion/RecIfPallindrome.java)
+
+- [Revrse string using recursion](./PlacementCoding/src/com/coding/recursion/RecReverseString.java)
+
+- [Sum of array using reccursrion](./PlacementCoding/src/com/coding/recursion/RecSumArray.java)
+
+- [FibonacciSeries using recusrion](./PlacementCoding/src/com/coding/recursion/RecFibonacciSeries.java)
+
+- [Factorial Using recursion](./PlacementCoding/src/com/coding/recursion/RecFactorialOfNum.java)
