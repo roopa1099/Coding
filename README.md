@@ -114,3 +114,5 @@
 - [FibonacciSeries using recusrion](./PlacementCoding/src/com/coding/recursion/RecFibonacciSeries.java)
 
 - [Factorial Using recursion](./PlacementCoding/src/com/coding/recursion/RecFactorialOfNum.java)
+
+- [Find min max from an array using recursion](./PlacementCoding/src/com/coding/recursion/RecFindMinMaxInArray.java)
