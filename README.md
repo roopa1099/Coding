@@ -118,3 +118,9 @@
 - [Find min max from an array using recursion](./PlacementCoding/src/com/coding/recursion/RecFindMinMaxInArray.java)
 
 - [Print a sum triangle from it such that the first level has all array elements. From then print sum of array of 2 cnsecutive elements](./PlacementCoding/src/com/coding/recursion/RecTriangleSumArray.java)
+
+- [Print alternate nodes in linked list using recursion](./PlacementCoding/src/com/coding/recursion/RcAltNodesInLL.java)
+
+- [Print mid of linked list using recursion](./PlacementCoding/src/com/coding/recursion/RecMidOfLL.java)
+
+- [Reverse stack using recursion](./PlacementCoding/src/com/coding/recursion/RecReverseStack.java)
