@@ -124,3 +124,11 @@
 - [Print mid of linked list using recursion](./PlacementCoding/src/com/coding/recursion/RecMidOfLL.java)
 
 - [**Reverse stack using recursion**](./PlacementCoding/src/com/coding/recursion/RecReverseStack.java)
+
+- [Given a number, find the sum of its digits.](./PlacementCoding/src/com/coding/recursion/RecSumOfDigits.java)
+
+- [Decimal to binary](./PlacementCoding/src/com/coding/recursion/RecDecToBin.java)
+
+- [Check if prime number.](./PlacementCoding/src/com/coding/recursion/RecPrimeNum.java)
+
+- [Given a set of characters generate all possible passwords from them. This means we should generate all possible permutations of words using the given characters, with repetitions and also upto a given length.](./PlacementCoding/src/com/coding/recursion/RecPossiblePassword.java)
