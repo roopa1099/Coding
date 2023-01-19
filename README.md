@@ -132,3 +132,9 @@
 - [Check if prime number.](./PlacementCoding/src/com/coding/recursion/RecPrimeNum.java)
 
 - [Given a set of characters generate all possible passwords from them. This means we should generate all possible permutations of words using the given characters, with repetitions and also upto a given length.](./PlacementCoding/src/com/coding/recursion/RecPossiblePassword.java)
+
+- [Given an array of positive and negative integers, segregate them without changing the relative order of elements. The output should contain all positive numbers follow negative numbers while maintaining the same relative ordering.](./PlacementCoding/src/com/coding/recursion/RecPosNegInt.java)
+
+- [Merg Sort](./PlacementCoding/src/com/coding/recursion/RecMergeSort.java)
+
+-[Quick Sort](./PlacementCoding/src/com/coding/recursion/RecQuickSort.java)
