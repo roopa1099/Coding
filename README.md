@@ -140,3 +140,5 @@
 - [Quick Sort](./PlacementCoding/src/com/coding/recursion/RecQuickSort.java)
 
 - [Given a sorted array of non-negative distinct integers, find the smallest missing non-negative element in it.](./PlacementCoding/src/com/coding/recursion/RecSmallestMissingNum.java)
+
+- [Given two integers x and n, we need to find number of ways to express x as sum of n-th powers of unique natural numbers. It is given that 1 <= n <= 20.](./PlacementCoding/src/com/coding/recursion/RecPossiblePowerOfSum.java)
