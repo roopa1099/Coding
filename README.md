@@ -137,4 +137,6 @@
 
 - [Merg Sort](./PlacementCoding/src/com/coding/recursion/RecMergeSort.java)
 
--[Quick Sort](./PlacementCoding/src/com/coding/recursion/RecQuickSort.java)
+- [Quick Sort](./PlacementCoding/src/com/coding/recursion/RecQuickSort.java)
+
+- [Given a sorted array of non-negative distinct integers, find the smallest missing non-negative element in it.](./PlacementCoding/src/com/coding/recursion/RecSmallestMissingNum.java)
