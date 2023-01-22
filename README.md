@@ -141,10 +141,12 @@
 
 - [Given a sorted array of non-negative distinct integers, find the smallest missing non-negative element in it.](./PlacementCoding/src/com/coding/recursion/RecSmallestMissingNum.java)
 
-- [Given two integers x and n, we need to find number of ways to express x as sum of n-th powers of unique natural numbers. It is given that 1 <= n <= 20.](./PlacementCoding/src/com/coding/recursion/RecPossiblePowerOfSum.java)
+- [**Given two integers x and n, we need to find number of ways to express x as sum of n-th powers of unique natural numbers. It is given that 1 <= n <= 20.**](./PlacementCoding/src/com/coding/recursion/RecPossiblePowerOfSum.java)
 
-- [Heap Sort](./PlacementCoding/src/com/coding/recursion/HeapSort.java)
+- [**Heap Sort**](./PlacementCoding/src/com/coding/recursion/HeapSort.java)
 
 - [Given a sorted integer array, find the k closest elements to target in the array where k and target are given positive integers.](./PlacementCoding/src/com/coding/recursion/RecKClosestElement.java)
 
 - [Given an unsorted integer array, find all pairs with a given difference k in it without using any extra space.](./PlacementCoding/src/com/coding/recursion/TargetSum.java)
+
+- [Given an integer array where every element appears an even number of times, except one element which appears an odd number of times. If the identical elements appear in pairs in the array and there cannot be more than two consecutive occurrences of an element, find the odd occurring element in logarithmic time and constant space.](./PlacementCoding/src/com/coding/recursion/RecOddOccElements.java)
