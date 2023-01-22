@@ -144,3 +144,7 @@
 - [Given two integers x and n, we need to find number of ways to express x as sum of n-th powers of unique natural numbers. It is given that 1 <= n <= 20.](./PlacementCoding/src/com/coding/recursion/RecPossiblePowerOfSum.java)
 
 - [Heap Sort](./PlacementCoding/src/com/coding/recursion/HeapSort.java)
+
+- [Given a sorted integer array, find the k closest elements to target in the array where k and target are given positive integers.](./PlacementCoding/src/com/coding/recursion/RecKClosestElement.java)
+
+- [Given an unsorted integer array, find all pairs with a given difference k in it without using any extra space.](./PlacementCoding/src/com/coding/recursion/TargetSum.java)
