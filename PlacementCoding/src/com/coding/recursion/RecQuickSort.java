@@ -5,6 +5,8 @@ package com.coding.recursion;
  */
 public class RecQuickSort {
 
+    // Consider last as pivot element and divide array
+
     public static int pivotPos(int[] array,int start, int end){
             int pt=start, element=array[end];
         int index=start;
@@ -24,6 +26,7 @@ public class RecQuickSort {
         return index;
     }
 
+    // apply quick sort in both divided arrays until start?end
     public static void quickSort(int[] array, int start, int end) {
 
         if(start>=end){
