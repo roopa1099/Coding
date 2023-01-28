@@ -150,3 +150,13 @@
 - [Given an unsorted integer array, find all pairs with a given difference k in it without using any extra space.](./PlacementCoding/src/com/coding/recursion/TargetSum.java)
 
 - [Given an integer array where every element appears an even number of times, except one element which appears an odd number of times. If the identical elements appear in pairs in the array and there cannot be more than two consecutive occurrences of an element, find the odd occurring element in logarithmic time and constant space.](./PlacementCoding/src/com/coding/recursion/RecOddOccElements.java)
+
+
+
+## MISCELLANEUOS
+
+- [**Given a positive number, convert the number to the corresponding Excel column name.**](./PlacementCoding/src/com/coding/Miscellaneous/FindStringFromNumber.java)
+
+- [Given two strings, determine whether they are isomorphic. Two strings, X and Y, are called isomorphic if all occurrences of each character in X can be replaced with another character to get Y and vice-versa.](./PlacementCoding/src/com/coding/Miscellaneous/IsomorphicString.java)
+
+- [**Given an integer array, find the maximum sum among all subarrays possible.**](./PlacementCoding/src/com/coding//divideAndconquer/MaxSumSubarray.java)
