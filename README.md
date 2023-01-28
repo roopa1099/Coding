@@ -151,6 +151,8 @@
 
 - [Given an integer array where every element appears an even number of times, except one element which appears an odd number of times. If the identical elements appear in pairs in the array and there cannot be more than two consecutive occurrences of an element, find the odd occurring element in logarithmic time and constant space.](./PlacementCoding/src/com/coding/recursion/RecOddOccElements.java)
 
+- [**Tower Of Hanoi**](./PlacementCoding/src/com/coding/recursion/TowerOfHanoi.java)
+
 
 
 ## MISCELLANEUOS
