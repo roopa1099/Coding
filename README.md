@@ -162,3 +162,9 @@
 - [Given two strings, determine whether they are isomorphic. Two strings, X and Y, are called isomorphic if all occurrences of each character in X can be replaced with another character to get Y and vice-versa.](./PlacementCoding/src/com/coding/Miscellaneous/IsomorphicString.java)
 
 - [**Given an integer array, find the maximum sum among all subarrays possible.**](./PlacementCoding/src/com/coding//divideAndconquer/MaxSumSubarray.java)
+
+
+
+## Bitwise
+
+- [Given an integer array of size n, with all its elements between 1 and n and one element occurring twice and one element missing. Find the missing number and the duplicate element in linear time and without using any extra memory.](./PlacementCoding/src/com/coding/bitwise/FindMissingAndDuplicate.java)
