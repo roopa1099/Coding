@@ -175,3 +175,5 @@
 - [Compute the minimum or maximum of two integers without branching](./PlacementCoding/src/com/coding/bitwise/ComputeLargest.java)
 
 - [Given an integer, swap two bits at given positions in a binary representation of it.](./PlacementCoding/src/com/coding/bitwise/SwapTwoIndexBits.java)
+
+- [Given two integers, find their XOR without using the XOR operator.](./PlacementCoding/src/com/coding/bitwise/XORWithoutXOR.java)
