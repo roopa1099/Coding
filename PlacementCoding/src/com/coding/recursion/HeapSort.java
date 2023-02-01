@@ -48,6 +48,7 @@ public class HeapSort {
             int swap=array[largest];
             array[largest]=array[iNode];
             array[iNode]=swap;
+            // heapify child according to it
             heapify(array, length, largest);
         }
         
