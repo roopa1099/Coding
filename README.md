@@ -177,3 +177,7 @@
 - [Given an integer, swap two bits at given positions in a binary representation of it.](./PlacementCoding/src/com/coding/bitwise/SwapTwoIndexBits.java)
 
 - [Given two integers, find their XOR without using the XOR operator.](./PlacementCoding/src/com/coding/bitwise/XORWithoutXOR.java)
+
+
+## Stack
+- [Given a stack of integers, sort it in ascending order using another temporary stack.](./PlacementCoding/src/com/coding/stack/Sort.java)
