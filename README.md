@@ -181,3 +181,5 @@
 
 ## Stack
 - [Given a stack of integers, sort it in ascending order using another temporary stack.](./PlacementCoding/src/com/coding/stack/Sort.java)
+
+- [Reverse a Stack without using recursion and extra space. Even the functional Stack is not allowed.](./PlacementCoding/src/com/coding/stack/RevesrseStack.java)
