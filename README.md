@@ -5,9 +5,9 @@
 - [array ques2](./path)
 
 ## String
-- [Given a list of database transactions, find all read-write conflicts among them.](./PlacementCoding/src/com/coding/string/DatabaseConflict.java)
+- [Given a list of database transactions, find all read-write conflicts among them.](./PlacementCoding/src/com/coding/string/com/coding/string/DatabaseConflict.java)
 
-- [find the shortest unique prefix to identify each word in the array uniquely.](./PlacementCoding/src/com/coding/string/SmaleestCommonPrefix.java)
+- [find the shortest unique prefix to identify each word in the array uniquely.](./PlacementCoding/src/com/coding/string/com/coding/string/SmaleestCommonPrefix.java)
 
 - [ Find all substrings of a string that contains all characters of another string.](./PlacementCoding/src/com/coding/string/com/coding/string/AllPossiblePermutaion.java)
 
