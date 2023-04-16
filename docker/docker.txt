@@ -1,0 +1,41 @@
+- what is docker?
+- why we need docker?
+- what is container?
+- what is docker image?
+- docker file?
+- docker hub?
+- containerd, CRI-O, rkt ...
+
+limitations - which solved by k8s:
+- High available- replicas, multiple nodes(multiple vms)
+- public url - as docker will run container on localhost 
+- loadbalancer
+- security/connectivity
+
+
+docker run as a daemon(background job). socket connection(/var/run/docker.sock)
+
+commands:
+- docker login -u <username> -p <password> - used to login to docker hub/any docker registery
+- docker images - list all the docker images available in your system/ local build
+- docker image format - <username>/<service name>:<tag>
+- docker rmi <image id> - used to delete the docker images from local
+- docker rmi <image id> -f - used to delete the docker images from local for force deletion
+- docker system prune - clean all the unneccesery data 
+    - all stopped containers
+    - all networks not used by at least one container
+    - all dangling images
+    - all dangling build cache
+- docker ps - list all running containers
+- docker pull <image name> - pull the docker image locally
+- docker ps -a - list all containers including stopped containers
+- docker build - docker image build
+- docker push <image name> - push image to docker hub
+- docker stop <id> - stop the docker containers
+- docker rm <id> - remove the docker container ( use -f for force removal)
+- docker stop <id> - stop the running containers
+- docker run -d -p 8080:80 <image name> - run the docker container 
+        - 8080: port where we are running this container
+        - 80: port which we exposed in dockerfile
+        - -d use to run the container in detach mode(background process)
+- docker logs <container id> - check the logs of container
