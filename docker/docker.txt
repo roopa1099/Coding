@@ -39,3 +39,4 @@ commands:
         - 80: port which we exposed in dockerfile
         - -d use to run the container in detach mode(background process)
 - docker logs <container id> - check the logs of container
+- docker exec -it <container id> - we can exec/enter inside the container
