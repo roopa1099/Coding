@@ -327,3 +327,32 @@
 - [Given a stack of integers, sort it in ascending order using another temporary stack.](./PlacementCoding/src/com/coding/stack/Sort.java)
 
 - [Reverse a Stack without using recursion and extra space. Even the functional Stack is not allowed.](./PlacementCoding/src/com/coding/stack/RevesrseStack.java)
+
+
+## Tree
+
+- [Create a binary tree](./PlacementCoding/src/com/coding/tree/BinaryTreeInsertion.java)
+
+- [Inorder Traversal](./PlacementCoding/src/com/coding/tree/BinaryTreeInsertion.java)
+
+- [Post Order Traversal](./PlacementCoding/src/com/coding/tree/BinaryTreeInsertion.java)
+
+- [Pre order Traversal](./PlacementCoding/src/com/coding/tree/BinaryTreeInsertion.java)
+
+- [Level Order Traversal](./PlacementCoding/src/com/coding/tree/BinaryTreeInsertion.java)
+
+- [Count Number of Nodes](./PlacementCoding/src/com/coding/tree/BinaryTreeInsertion.java)
+
+- [Sum of Nodes](./PlacementCoding/src/com/coding/tree/BinaryTreeInsertion.java)
+
+- [Height of tree](./PlacementCoding/src/com/coding/tree/BinaryTreeInsertion.java)
+
+- [Diameter of tree](./PlacementCoding/src/com/coding/tree/BinaryTreeInsertion.java)
+
+- [Subtree of another Tree](./PlacementCoding/src/com/coding/tree/SubtreeOfAnotherTree.java)
+
+- [Create BST](./PlacementCoding/src/com/coding/tree/BinarySearchTree.java)
+
+- [Search in BST](./PlacementCoding/src/com/coding/tree/BinarySearchTree.java)
+
+- [Delete a node](./PlacementCoding/src/com/coding/tree/BinarySearchTree.java)
