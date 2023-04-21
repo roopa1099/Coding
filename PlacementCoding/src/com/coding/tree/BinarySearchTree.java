@@ -1,5 +1,7 @@
 package com.coding.tree;
 
+import java.util.Stack;
+
 public class BinarySearchTree {
 
     // in ideal situation we consider no duplicate element
@@ -72,7 +74,7 @@ public class BinarySearchTree {
             TreeNode nextInorderNode = nextInorderSubsequentNode(node.rightChild);
             node.data = nextInorderNode.data;
             // then delete that next inorder node
-            node.rightChild= deleteNode(node.rightChild, nextInorderNode.data);
+            node.rightChild = deleteNode(node.rightChild, nextInorderNode.data);
         }
 
         return node;
@@ -88,6 +90,50 @@ public class BinarySearchTree {
 
     }
 
+    public static void printInRange(int x, int y, TreeNode node) {
+
+        // case 1
+        if (node != null && node.data >= x && node.data <= y) {
+            printInRange(x, y, node.leftChild);
+            System.out.println(node.data);
+            printInRange(x, y, node.rightChild);
+        }
+        // case 2
+        else if (node != null && node.data < x) {
+            printInRange(x, y, node.rightChild);
+
+        }
+        // case 3
+        else if (node != null && node.data > y) {
+            printInRange(x, y, node.leftChild);
+        }
+
+        return;
+    }
+
+    static Stack<Integer> stack = new Stack<>() ;
+
+    public static void printAllPath(TreeNode node) {
+
+        // leaf node
+        if(node==null)
+            return;
+
+        if (node.leftChild == null && node.rightChild==null) {
+            stack.add(node.data);
+            System.out.println(stack);
+            stack.pop();
+            return;
+        }
+
+        stack.add(node.data);
+        printAllPath(node.leftChild);
+        printAllPath(node.rightChild);
+        stack.pop();
+        return;
+
+    }
+
     public static void main(String[] args) {
         int[] array = { 4, 2, 6, 1, 7 };
         TreeNode root = null;
@@ -100,13 +146,20 @@ public class BinarySearchTree {
         System.out.println("-----------------");
         System.out.println(isElementExist(root, 5));
 
-        System.out.println("-----------------");
-        deleteNode(root, 6);
-        printInorder(root);
+        // System.out.println("-----------------");
+        // deleteNode(root, 6);
+        // printInorder(root);
+
+        // System.out.println("-----------------");
+        // deleteNode(root, 4);
+        // printInorder(root);
 
         System.out.println("-----------------");
-        deleteNode(root, 4);
-        printInorder(root);
+        printInRange(2, 5, root);
+
+        System.out.println("-----------------");
+        printAllPath(root);
     }
+
 
 }

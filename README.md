@@ -356,3 +356,7 @@
 - [Search in BST](./PlacementCoding/src/com/coding/tree/BinarySearchTree.java)
 
 - [Delete a node](./PlacementCoding/src/com/coding/tree/BinarySearchTree.java)
+
+- [Print values of BST existing between x and y](./PlacementCoding/src/com/coding/tree/BinarySearchTree.java)
+
+- [Print all possible paths](./PlacementCoding/src/com/coding/tree/BinarySearchTree.java)
