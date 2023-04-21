@@ -360,3 +360,5 @@
 - [Print values of BST existing between x and y](./PlacementCoding/src/com/coding/tree/BinarySearchTree.java)
 
 - [Print all possible paths](./PlacementCoding/src/com/coding/tree/BinarySearchTree.java)
+
+- [Inorder successor in bst](./PlacementCoding/src/com/coding/tree/BinarySearchTree.java)
