@@ -1,5 +1,8 @@
 package com.coding.tree;
 
+/**
+ * Program to Determine if given Two Trees are Identical or not
+ */
 public class TwoIdenticalTree {
 
     public static boolean isBothIdentical(TreeNode node1, TreeNode node2){
