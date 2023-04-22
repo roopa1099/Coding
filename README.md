@@ -1,89 +1,177 @@
 # Content
 
+## Docker
+- [ Basic docker commands](./docker/docker.txt)
+
+- [Docker using c++](./docker/hello-world/Dockerfile)
+
+- [Docker using java](./docker/dockerPractice)
+
+
 ## Array
 - [find the length of the longest substring, which has all distinct characters](./PlacementCoding/src/com/coding/array/AllDistinctElemetSubArrayMax.java)
+
 - [ We are given an unsorted array containing n numbers taken from the range 1 to n. The array has some numbers appearing twice, find all these duplicate numbers using constant space.](./PlacementCoding/src/com/coding/array/AllDuplicateElements.java)
+
 - [Array product without division](./PlacementCoding/src/com/coding/array/ArrayProductsWithoutDivision.java)
+
 - [ Given an array arr[] of size N, the task is to rotate the array by d position to the left.](./PlacementCoding/src/com/coding/array/ArrayRotatioinOne.java)
+
 - [Given a circular integer array nums of length n, return the maximum possible sum of a non-empty subarray of nums.](./PlacementCoding/src/com/coding/array/CircularArrayMAxSum.java)
+
 - [Given an array of unsorted numbers and a target number, find a triplet in the array whose sum is as close to the target number as possible, return the sum of the triplet. If there are more than one such triplet, return the sum of the triplet with the smallest sum.](./PlacementCoding/src/com/coding/array/CloserToTarget.java)
+
 - [ Given time in minutes,return time in digital clock manner](./PlacementCoding/src/com/coding/array/ConvertTimeToDigiClock.java)
 - [Decimal to binary](./PlacementCoding/src/com/coding/array/DecimalToBinary.java)
+
 - [ Convert the array in such a way that if both current and next element is valid and both have same value then double current value and replace the next number with 0](./PlacementCoding/src/com/coding/array/DoubleFirstElement.java)
+
 - [We are given an unsorted array containing ‘n+1’ numbers taken from the range 1 to ‘n’. The array has only one duplicate but it can be repeated multiple times. Find that duplicate number without using any extra space. You are, however, allowed to modify the input array.](./PlacementCoding/src/com/coding/array/DuplicateElement.java)
+
 - [Find all missing elements](./PlacementCoding/src/com/coding/array/FindaAllMissingNumbers.java)
+
 - [Given a sorted integer array containing duplicates, count occurrences of a given number. If the element is not found in the array, report that as well.](./PlacementCoding/src/com/coding/array/FindElementInSortedArray.java)
+
 - [Given an unsorted array containing numbers and a number ‘k’, find the first ‘k’ missing positive numbers in the array.](./PlacementCoding/src/com/coding/array/FindKSmallestMissingElements.java)
+
 - [We are given an unsorted array containing ‘n’ numbers taken from the range 1 to ‘n’. The array originally contained all the numbers from 1 to ‘n’, but due to a data error, one of the numbers got duplicated which also resulted in one number going missing](./PlacementCoding/src/com/coding/array/FindMissingAndDuplicate.java)
+
 - [We are given an array containing n distinct numbers taken from the range 0 to n. Since the array has only n numbers out of the total n+1 numbers, find the missing number.](./PlacementCoding/src/com/coding/array/FindMissingElement.java)
+
 - [Find peak elements in an array](./PlacementCoding/src/com/coding/array/FindPeakELement.java)
+
 - [Given an unsorted array containing numbers, find the smallest missing positive number in it.](./PlacementCoding/src/com/coding/array/FindKSmallestMissingElements.java)
+
 - [First and last occurebnce of givern chanaracter i word](./PlacementCoding/src/com/coding/array/FirstAndLastOccRe.java)
+
 - [You are given n rectangles represented by a 0-indexed 2D integer array rectangles, where rectangles[i] = [widthi, heighti] denotes the width and height of the ith rectangle.](./PlacementCoding/src/com/coding/array/InterchangeableRectangles.java)
+
 - [Given a list of intervals, merge all the overlapping intervals to produce a list that has only mutually exclusive intervals.](./PlacementCoding/src/com/coding/array/Interval.java)
+
 - [Find inversion count](./PlacementCoding/src/com/coding/array/InversionCount.java)
+
 - [K closest points to the origin](./PlacementCoding/src/com/coding/array/KClosestPointsToOrigin.java)
+
 - [Kth largest element in array](./PlacementCoding/src/com/coding/array/KthLargetElementInArray.java)
+
 - [Find longest sub array with equal 1 and 0](./PlacementCoding/src/com/coding/array/LargestSuArrayEqual0And1.java)
+
 - [Left rotate and print](./PlacementCoding/src/com/coding/array/LeftRotatePrint.java)
+
 - [Find lexographically largest number](./PlacementCoding/src/com/coding/array/LexographicallyLargestNumber.java)
+
 - [Find lexographically smallest number](./PlacementCoding/src/com/coding/array/LexographicalSmallest.java)
+
 - [Find length of longest band possible from array. A band is a sequence of consecutive numbers, with a fixed difference of 1.](./PlacementCoding/src/com/coding/array/LongestBand.java)
+
 - [Given a string with lowercase letters only, if you are allowed to replace no more than k letters with any letter, find the length of the longest substring having the same letters after replacement.](./PlacementCoding/src/com/coding/array/LongestSubarrayAfterReplacement.java)
+
 - [Given an array containing 0s and 1s, if you are allowed to replace no more than ‘k’ 0s with 1s, find the length of the longest contiguous subarray having all 1s.](./PlacementCoding/src/com/coding/array/LongestSubarrayReplaced0With1.java)
+
 - [Given a string, find the length of the longest substring in it with no more than K distinct characters](./PlacementCoding/src/com/coding/array/LongestSubarrayWIthUniqueKCharacters.java)
+
 - [Given an integer array of size n, find all elements that appear more than ⌊ n/3 ⌋ times.](./PlacementCoding/src/com/coding/array/MajorityElementBMoore2.java)
+
 - [Given an array nums of size n, return the majority element.](./PlacementCoding/src/com/coding/array/MajorityElementMoore.java)
+
 - [ Find max length possible for a mountains peak, a peak is a sequnace of consecutively increasing element then strictly decreasing elements.](./PlacementCoding/src/com/coding/array/MaxMountainsPeakLength.java)
+
 - [ Given a rod of length n and a list of rod prices of length i, where 1 <= i <= n, find the optimal way to cut the rod into smaller rods to maximize profit.](./PlacementCoding/src/com/coding/array/MaxProfitableRod.java)
+
 - [Max rain water collection](./PlacementCoding/src/com/coding/array/MaxRainWaterCollection.java)
+
 - [Max sum in circular array](./PlacementCoding/src/com/coding/array/MaxSumInCircularArray.java)
+
 - [Max sum in any subarray](./PlacementCoding/src/com/coding/array/MaxSumOfAnySubarray.java)
+
 - [ Question:Given an array arr[] of size N, the task is to find the maximum possible sum of i*arr[i]when the array can be rotated any number of times.](./PlacementCoding/src/com/coding/array/MaxSumOfIAndElement.java)
+
 - [merge two sorted arrays](./PlacementCoding/src/com/coding/array/Merge2SortedArray.java)
+
 - [ Given a list of non-negative integers, find the minimum number of merge operations to make it a palindrome. A merge operation can only be performed on two adjacent elements. The result of a merge operation is that the two adjacent elements are replaced with their sum.](./PlacementCoding/src/com/coding/array/MergeForPallindrome.java)
 - [merge sort](./PlacementCoding/src/com/coding/array/MergeSort.java)
 - [ Minimum Difference Implement a function that takes in two non-empty arrays of integers, finds the pair of numbers (one from each array) who absolute difference is closest to zero, and return](./PlacementCoding/src/com/coding/array/MinDifferenceCloseToZero.java)
+
 - [ A sorted array arr[] (may be distinct or may contain duplicates) of size N is rotated at some unknown point, find the minimum element in it.](./PlacementCoding/src/com/coding/array/MinimumElementInRotatedArray.java)
+
 - [Min swap for sorted array](./PlacementCoding/src/com/coding/array/MinimumSwapsForSortedArrays.java)
+
 - [ Given an array of n positive integers and a number k. Find the minimum number of swaps required to bring all the numbers less than or equal to k together.](./PlacementCoding/src/com/coding/array/MinimumSwapsToPartition.java)
+
 - [Min xor value in array](./PlacementCoding/src/com/coding/array/MinimumXORValueInArray.java)
+
 - [move all zeroes to the end](./PlacementCoding/src/com/coding/array/MoveZeroesToEnd.java)
+
 - [A permutation of an array of integers is an arrangement of its members into a sequence or linear order](./PlacementCoding/src/com/coding/array/NextPermutation.java)
+
 - [Given a string, find the smallest window (substring) which contains all distinct characters of the given input string.](./PlacementCoding/src/com/coding/array/OnlyDistinctCharacterSubarray.java)
+
 - [ Given a string and a pattern, find out if the string contains any permutation of the pattern. Permutation is defined as the re-arranging of the characters of the string. For example, “abc” has the following six permutations:](./PlacementCoding/src/com/coding/array/PermutationFromGivenPattern.java)
+
 - [Given a 32bit number M and N. Given 2 position i and j. Replace te i to j index of N with M.](./PlacementCoding/src/com/coding/array/PlaceANumberInsideAnother.java)
+
 - [prime numbers](./PlacementCoding/src/com/coding/array/PrimeNumbers.java)
+
 - [Given an array with positive numbers and a positive target number, find all of its contiguous subarrays whose product is less than the target number.](./PlacementCoding/src/com/coding/array/ProductLessThanTargetSubarry.java)
+
 - [Given an array of unsorted numbers and a target number, find all unique quadruplets in it, whose sum is equal to the target number.](./PlacementCoding/src/com/coding/array/QuadripleSum.java)
+
 - [queries left right](/PlacementCoding/src/com/coding/array/QueriesLeftRight.java)
+
 - [ Find element at ith position - quick select search](/PlacementCoding/src/com/coding/array/QuickSelectSearch.java)
+
 - [Quick sort](/PlacementCoding/src/com/coding/array/QuickSort.java)
+
 - [Rearrange greater and lesser elements](/PlacementCoding/src/com/coding/array/RearrangeGreaterLesser.java)
+
 - [Rearange min and max](/PlacementCoding/src/com/coding/array/RearrangeMaxMin.java)
+
 - [Rearrange negative positions](/PlacementCoding/src/com/coding/array/RearrangeNegPos.java)
+
 - [Rearange one to n](/PlacementCoding/src/com/coding/array/RearrangeOneToN.java)
+
 - [ Given an array, find the length of the smallest subarray in it which when sorted will sort the whole array.](/PlacementCoding/src/com/coding/array/RearrangeSmallestSubarrayToSort.java)
+
 - [Remove duplicate element](/PlacementCoding/src/com/coding/array/RemoveDuplicate.java)
+
 - [Right rotation](/PlacementCoding/src/com/coding/array/RightRotation.java)
+
 - [Search element in rotated array](/PlacementCoding/src/com/coding/array/SearchElementInRotatedArray.java)
+
 - [Share max profit](/PlacementCoding/src/com/coding/array/SharesMaxProfit.java)
+
 - [Given an array of integers A, every element appears twice except for one. Find that single one.](/PlacementCoding/src/com/coding/array/SingleElement.java)
+
 - [Given an array of positive integers and a number ‘S,’ find the length of the smallest contiguous subarray whose sum is greater than or equal to ‘S’. Return 0 if no such subarray exists.](/PlacementCoding/src/com/coding/array/SmallestSubarrayGeaterThanGivenSum.java)
+
 - [ Given an array containing 0s, 1s and 2s, sort the array in-place. You should treat numbers of the array as objects, hence, we can’t count 0s, 1s, and 2s to recreate the array.](/PlacementCoding/src/com/coding/array/Sort0sAnd1sAnd2s.java)
+
 - [ We are given an array containing n objects. Each object, when created, was assigned a unique number from the range 1 to n based on their creation sequence. This means that the object with sequence number 3 was created](/PlacementCoding/src/com/coding/array/Sort1ToN.java)
+
 - [Given a sorted array, create a new array containing squares of all the numbers of the input array in the sorted order.](/PlacementCoding/src/com/coding/array/SortSquaresOfArray.java)
+
 - [ Given an integer array nums and an integer k, return the number of subarrays of nums where the greatest common divisor of the subarray's elements is k.](/PlacementCoding/src/com/coding/array/SubarrayWithKGcd.java)
+
 - [Given an array of positive numbers and a positive number ‘k,’ find the maximum sum of any contiguous subarray of size ‘k’.](/PlacementCoding/src/com/coding/array/SubarrayWithMaxKelementSum.java)
+
 - [Given an integer array nums and an integer k, return true if nums has a continuous subarray of size at least two whose elements sum up to a multiple of k, or false](/PlacementCoding/src/com/coding/array/SubsequenceArrayWithSumMultipleOfK.java)
+
 - [Given an integer array nums and an integer k, return the k most frequent elements. You may return the answer in any order.](/PlacementCoding/src/com/coding/array/TopKElements.java)
+
 - [Total Rain water trapping](/PlacementCoding/src/com/coding/array/TotalRainwaterTrapped.java)
+
 - [ Given an array of unsorted numbers, find all unique triplets in it that add up to zero.](/PlacementCoding/src/com/coding/array/TripleSumZero.java)
+
 - [ Given an array arr of unsorted numbers and a target sum, count all triplets in it such that arr[i] + arr[j] + arr[k] < target where i, j, and k are three different indices. Write a function to return the count of such triplets.](/PlacementCoding/src/com/coding/array/TripletSumLessThanTargetCount.java)
+
 - [Two fruit basket](/PlacementCoding/src/com/coding/array/TwoFruitBasket.java)
+
 - [Given an array arr[] of distinct elements size N that is sorted and then around an unknown point, the task is to check if the array has a pair with a given sum X](/PlacementCoding/src/com/coding/array/TwoPairSumRotatedArray.java)
+
 - [ Given an array of sorted numbers and a target sum, find a pair in the array whose sum is equal to the given target.](/PlacementCoding/src/com/coding/array/TwoPointerSum.java)
+
 - [Ugly number](/PlacementCoding/src/com/coding/array/UglyNumber3.java)
+
 - [evem position should be greater than left and right elements](/PlacementCoding/src/com/coding/array/ZIgZagArray.java)
 
 ## String
