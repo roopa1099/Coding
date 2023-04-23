@@ -9,7 +9,7 @@ Notes:
     c. Behavioural design pattern: Deals with communication between classes.
 
 3. JEE design catalog contains 4 layers: 
-    a. Data access layer
+    a. Data access layer(CRUD Service)
     b. Service/business logic layer
     c. Presentation layer.
     d. Integration layer.
@@ -38,3 +38,47 @@ Notes:
 
 11. Adapter Pattern: Used to communicate between two classes. 
     Adapter class is responsible for conversion of data required to communicate between both classes.
+
+12. Flyweight pattern: Used to save memory, it is structural design pattern. Can reduce number of object creation. We cache
+    the object created.
+
+13. Steps for flyweight:
+
+    a. Find out extrensic state(non common properties)
+
+    b. Pass those states/prop as parametrs.
+
+    c. Create a factory class.
+
+14. Command Pattern: Comes under behavioral pattern. The command passes object from invoker to receiver. There are 5 components:
+        a. Client
+        b. Invoker
+        c. Command
+        d. Concrete Command(implements command)
+        e. Receiver(knows how to perform all actions)
+
+        Eg: Person => Remote => On/Off command => Television
+
+    Client and receiver are decoupled.
+
+15. Decorator pattern: Adds functionality to object at runtime. Example in Java => new BufferedReader(new FileReader(..)).
+
+16. Dependency Injection: When object if another class is required for the implementation of a class(HAS-A).
+
+17. IOC pattern: Inversion Of Control: Giving external container the responsibility of dependency inject/ or creation of object.
+         Eg. Spring Container.
+
+18. @Component annotation is required to tell spring that class should be created at runtime using @Autowired
+
+19. Ways of DI:
+        a. Field level
+        b. Using setters
+        c. Constructor based injection
+
+20: In Presentation layer of JEE, there are 3 designs:
+        a. Interceptor filter(performing filtering before it reaches request provider)
+        b. Front Contoller(Controls business logic and view navigation from duplicating, else it becomes combursome. First 
+                           request comes to front controller, which first invokes business logic and then decides view)
+        c. MVC: Model, View, Controller. Model does db connection and business logic. View is the way model is visible to user. 
+                Controller acts as a conection between model and view. It first checks model for request and then 
+                selects appropriate view. Adv: Parallel dev, Maintenance is easy.
