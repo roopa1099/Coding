@@ -29,7 +29,7 @@ commands:
 - docker ps - list all running containers
 - docker pull <image name> - pull the docker image locally
 - docker ps -a - list all containers including stopped containers
-- docker build - docker image build
+- docker build - docker image build e.g=> docker build -t <the container name you want to create> . => docker build -t dockerpractice .
 - docker push <image name> - push image to docker hub
 - docker stop <id> - stop the docker containers
 - docker rm <id> - remove the docker container ( use -f for force removal)

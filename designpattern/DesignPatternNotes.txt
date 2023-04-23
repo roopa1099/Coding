@@ -1,0 +1,40 @@
+
+Notes:
+
+1. Design pattern are the best practices and provides a solution to recurring problems.
+
+2. 3 types of design patterns:
+    a. Creational design pattern: Deals with object creation and instantiation.
+    b. Structural design pattern: Deals with relationship between classes.
+    c. Behavioural design pattern: Deals with communication between classes.
+
+3. JEE design catalog contains 4 layers: 
+    a. Data access layer
+    b. Service/business logic layer
+    c. Presentation layer.
+    d. Integration layer.
+
+4. Singleton Class: Only one instance of object is created EG=> Logger
+
+5. Steps for singleton:
+    a. Make constructor optional.
+    b. Make private static instance.
+    c. Make static method to return constructor object.
+    d. Take care of serialization.
+    e. Serialization: ..................................
+    f. Ensure objects are not cloneable as it will create another instance.
+    g. Reflection Class problem => You can access the constructors and can create new instance. Solution is using Enum class.
+
+6. Eager Initialization, Lazy initialization: Eager initialization is when the object is instantiated in the very first time whuile declaration.
+                                              Lazy initialization is when it is initialized only when required.
+                                        
+7. Factory Pattern: Hides object creation process.
+
+8. Factory class is responsible for returning type of object. The method will be static.
+
+9. Abstract Factory: Factory of factories, decides which factory to be choosed/created.
+
+10. Template Pattern:  Parent provides a template for the child classes.
+
+11. Adapter Pattern: Used to communicate between two classes. 
+    Adapter class is responsible for conversion of data required to communicate between both classes.
