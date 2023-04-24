@@ -452,3 +452,7 @@
 - [Inorder successor in bst](./PlacementCoding/src/com/coding/tree/BinarySearchTree.java)
 
 - [Program to Determine if given Two Trees are Identical or not](./PlacementCoding/src/com/coding/tree/TwoIdenticalTree.java)
+
+- [Generate mirror image of BST tree](./PlacementCoding/src/com/coding/tree/MirrorImageTree.java)
+
+- [find the maximum sum path from a leaf to root](./PlacementCoding/src/com/coding/tree/MaxSumFromLeafToRoot.java)
