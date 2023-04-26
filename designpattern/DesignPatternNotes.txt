@@ -82,3 +82,23 @@ Notes:
         c. MVC: Model, View, Controller. Model does db connection and business logic. View is the way model is visible to user. 
                 Controller acts as a conection between model and view. It first checks model for request and then 
                 selects appropriate view. Adv: Parallel dev, Maintenance is easy.
+
+21. DAO Pattern: The actions to perform on every db should be present inside a separate DAO class. 
+                 Create DAO interface and Impl class to separate code for actions on database(@Repository).
+                 DAOs can be used by other layers like presentation layer/business logic layer.
+                 DAO contains the database methods.
+
+22. Proxy pattern: Proxy servers present in between layers, gives the feel of original server.
+
+23. Remote proxy: Exists between a client system and server lying on some other system. It comuunicates with the remote server and
+                  and brings back reaponse.
+
+24. Virtual proxy design pattern: The virtual proxy design pattern is used to preserve memory from being allotted to an object
+                         that may not be used in the future. Until the object is not used, a light copy of the object (that contains the required details) is created and shown to the user.
+
+25. Security proxy: Takes care of the authentication and authorization.
+
+26. Prototype pattern: Creates object from existing object. Avoid loading of entire data again while creation of new object.
+
+27. Shallow copy vs Deep copy: In shallow copy we don't override the clone method, so any change or update done to obj1 is also visible to obj2.
+                    In deep copy we either override or copy cosntructor to avoid pointing to same object after cloning.
