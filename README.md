@@ -455,4 +455,8 @@
 
 - [Generate mirror image of BST tree](./PlacementCoding/src/com/coding/tree/MirrorImageTree.java)
 
-- [find the maximum sum path from a leaf to root](./PlacementCoding/src/com/coding/tree/MaxSumFromLeafToRoot.java)
+- [Find the maximum sum path from a leaf to root](./PlacementCoding/src/com/coding/tree/MaxSumFromLeafToRoot.java)
+
+- [Is tree symmetric](./PlacementCoding/src/com/coding/tree/SymmtricCheck.java)
+
+- [Given a binary tree, the task is to check for every node, its value is equal to the sum of values of its immediate left and right child. For NULL values, consider the value to be 0.](./PlacementCoding/src/com/coding/tree/ChildSumEqualsRoot.java)

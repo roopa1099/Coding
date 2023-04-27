@@ -7,7 +7,6 @@ import designpattern.com.designpattern.decoratorpattern.Pizza;
 import designpattern.com.designpattern.decoratorpattern.PlainBasePizza;
 import designpattern.com.designpattern.decoratorpattern.VeggiePizza;
 import designpattern.com.designpattern.factorypattern.PizzaStore;
-import designpattern.com.designpattern.flyweight.Circle;
 import designpattern.com.designpattern.flyweight.Shape;
 import designpattern.com.designpattern.flyweight.ShapeFactoryClass;
 import designpattern.com.designpattern.prototypepattern.DeptDetails;
