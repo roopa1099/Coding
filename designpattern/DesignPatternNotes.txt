@@ -102,3 +102,7 @@ Notes:
 
 27. Shallow copy vs Deep copy: In shallow copy we don't override the clone method, so any change or update done to obj1 is also visible to obj2.
                     In deep copy we either override or copy cosntructor to avoid pointing to same object after cloning.
+
+28. Builder pattern: Gives flexibilty to return object by only specifying required data. It contains a static builder inner class. 
+
+29. Iterator pattern is applicable in case of collection of objects. 

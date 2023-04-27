@@ -1,6 +1,7 @@
 package designpattern.com.designpattern;
 
 import designpattern.com.designpattern.adapterpattern.WeatherUi;
+import designpattern.com.designpattern.builderpattern.Student;
 import designpattern.com.designpattern.decoratorpattern.CheesePizza;
 import designpattern.com.designpattern.decoratorpattern.Pizza;
 import designpattern.com.designpattern.decoratorpattern.PlainBasePizza;
@@ -131,6 +132,17 @@ public class MainClass {
        dept.employees.add(empl);
        System.out.println(dept.employees);
        System.out.println(dept2.employees);
+
+
+       /**
+        * Builder class
+        */
+        System.out.println("*****@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@******");
+        // not necessary to add all values
+        Student student=Student.Builder.newInstance().setName("Faizal").setAge(23).build();
+        student.print();
+
+    
     }
 
     
