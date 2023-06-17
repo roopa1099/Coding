@@ -19,16 +19,19 @@ public class SubtreeOfAnotherTree {
     }
 
     public static boolean isIdentical(TreeNode node, TreeNode subTree){
+
+         // if both are null then true
         if(node==null && subTree==null){
-            return false;
+            return true;
         }
 
         if(node==null || subTree==null){
-            return true;
+            return false;
         }
 
         
         if(node.data==subTree.data){
+             // any of the left or right child can contain the subtree
             return isIdentical(node.leftChild, subTree.leftChild) || isIdentical(node.rightChild, subTree.rightChild);
         }
 
@@ -37,10 +40,12 @@ public class SubtreeOfAnotherTree {
 
     public static boolean isSubtree(TreeNode node, TreeNode subTree){
 
+         //null subtree will always be a part
         if(subTree==null){
             return true;
         }
 
+         // if node is null, and subtree is not then always false
         if(node==null){
             return false;
         }
