@@ -31,8 +31,7 @@ public class SubtreeOfAnotherTree {
 
         
         if(node.data==subTree.data){
-             // any of the left or right child can contain the subtree
-            return isIdentical(node.leftChild, subTree.leftChild) || isIdentical(node.rightChild, subTree.rightChild);
+            return isIdentical(node.leftChild, subTree.leftChild) && isIdentical(node.rightChild, subTree.rightChild);
         }
 
         return false;
