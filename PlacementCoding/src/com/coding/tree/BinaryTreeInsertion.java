@@ -42,8 +42,8 @@ public class BinaryTreeInsertion {
         if(node==null) return;
 
 
-        printPreOrder(node.leftChild);
-        printPreOrder(node.rightChild);
+        printPostOrder(node.leftChild);
+        printPostOrder(node.rightChild);
         System.out.println(node.data);
     }
 
