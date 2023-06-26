@@ -1,0 +1,125 @@
+# Probleam statement: Let's design a URL shortening service like TinyURL. This service will provide short aliases redirecting to long URLs. Similar services: bit.ly, goo.gl, qlink.me, etc.
+
+# Requirement clarification and undertsanding:
+
+    - URL shortening is used to create shorter aliases for long URLs. We call these shortened aliases “short links.” Users are redirected to the original URL when they hit these short links.
+
+    - URL shortening is used for optimizing links across devices, tracking individual links to analyze audience and campaign performance, and hiding affiliated original URLs.
+
+    # Functional Requirement:
+
+    a. Should be able to generate tiny urls.
+    b. Should redirect to original url.
+    c. User can create custom url
+    d. Expiry can be defined by user.
+
+    # Non functional reuiqrment:
+
+    a. Should be highly available, even if one server is down generation/redirection should take place.
+    b. Redirection should take place with minimum latency.
+    c. Shortened url must not be predictable.
+
+# Estimation:
+
+    Assumptions: 500M urls per months is generated.
+                 Redirection:generate ratio = 100:1
+
+    # Traffic Estimation(req/sec):
+
+            Heavy read/redirect will take place.
+            Redirections per month = 500M * 100 = 50B.
+            Write/Generate per month = 500M
+
+
+            Per sec redirections= 50TB/(30*24*3600) = ~200 Urls per sec or 200K/sec
+            Per sec write operations = 500M/(30*24*3600) = 2K/sec
+
+    # Storage estimation(Storage till expiry for url):
+
+            Approx size to store original url and shortened url = 500Bytes.
+            If a url is stored for 5 years, then storage for 5 years will be = 500M * 5 * 30 * 500Bytes = 15TB  storage
+
+    # Bandwidth Estimation(write/sec storage storage/sec):
+
+            Storage for per sec write operation= 200K/sec * 500Bytes = ~10MB/sec
+
+    # Memory Estimation(storage for storing n% frequenctly accessed requests per day):
+
+        Caching:  if 20% of urls are to be cached. Per day memory required for caching = 200K/sec * 3600 * 24 = ~1.7B(request)
+                  20% will require = 0.20 * 1.7B * 500Bytes =~170GB.
+
+# Datamodel design/ database design:
+
+    - Need to store Billions of data.
+    - Object size is small.
+    - No relation among data except who stored which url.
+
+    Since no relation required and system requires to be scaled, NOSql is better.
+
+    ![Alt text](image.png)
+
+# Low Level Design:
+
+     Generating shortened urls:
+
+        - Using hashing technique:
+
+            a. What if multiple users enter a url at the same time, they might get same url which is not correct
+            b. What is user enters a url that almost same except a paramater and hash generated becomes same.
+
+            To make the url unique we can temperarily anter the user id in the end to make it unique.
+
+        - Key generating system(KGS):
+
+            - Generate and store key in the begining in db. Make another table to store used keys.
+            - On demand provide a key.
+
+           We can also store in cache, and add those keys in used key table. On demand we can provide key from cache.
+           It will check if key exists and then redirects to corresponding original url from url-key table.
+
+           We have to keep replicas of KGS, to avoid single pont of failure.
+
+           We can impose limit size
+
+# Handling other issues:
+
+        - DB Partitioning :
+
+            1. Partitioning based on starting letter: Any particular letter can have many url whereas some verylesss
+
+            2. Based on hashing of object we are storing(actual url example).
+
+        - Caching:
+
+            1. To access frequently used url
+
+            2. 20% of daily traffic can be cached.
+
+            3. LRU(least recently used) can be used to remove from cache.
+
+            4. Replicas of cache can be maintained
+
+            5. When a new backend call goes, cache and replicas can be updated.
+
+        - Load Balancer:
+
+            We can add a Load balancing layer at three places in our system:
+                1. Between Clients and Application servers
+                2. Between Application Servers and database servers
+                3. Between Application Servers and Cache servers.
+
+            Round Robin can be used, but it does not take into consider the load on any server. To handle this, a more intelligent LB solution can be placed that periodically queries the backend server about its load and adjusts traffic based on that.
+
+        - DB Cleanup:
+
+            Clean db, as per expiry
+
+        -  Telemetry:
+
+            Some statistics worth tracking: country of the visitor, date and time of access, web page that refers the click, browser, or platform from where the page was accessed.
+
+        - Security and Permissions:
+
+            Who all can access the url
+
+

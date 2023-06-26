@@ -1,0 +1,76 @@
+# Probleam statement: Let's design a photo-sharing service like Instagram, where users can upload photos to share them with other users. Similar Services: Flickr, Picasa Difficulty Level: Medium
+
+# Requirement clarification and undertsanding:
+
+    1. Functional Requirement:
+
+        - Upload/download photos
+        - Like photo
+        - Search
+        - Generate feed of top 10 photos
+
+    2. Non Functional Requirement:
+
+        - Highly available
+        - Latency for feed generation must be less
+        - Highly reliable in upload and download of photos
+
+    Read will be heavy. Focus on retrieving photos.
+    Storage management is an important aspect
+
+# Estimations:
+
+    • Let’s assume we have 500M total users, with 1M daily active users.
+    • 2M new photos every day, 23 new photos every second.
+    • Averagephotofilesize=>200KB
+    • Total space required for 1 day of photos
+                2M * 200KB => 400 GB
+    • Total space required for 10 years:
+                400GB * 365 (days a year) * 10 (years) ~= 1425TB
+
+# Database Schema:
+
+    - Need to store details of user
+    - Store photos
+    - Store who they follow
+
+    ![Alt text](image-1.png)
+
+    3 Tables:
+        1. User details
+        2. Photos details
+        3. UserConnection details
+
+    Relation does exist between tables, so better to use RDMS like MySql.But relational databases come with their challenges, especially when we need to scale them.
+
+    Photos can be stored in distributed File systems(DFS like s3)
+
+    Cassandra is a distributed NoSql db.
+    Cassandra or key-value stores in general, always maintain a certain number of replicas to offer reliability. Also, in such data stores, deletes don’t get applied instantly, data is retained for certain days (to support undeleting) before getting removed from the system permanently.
+
+    We need to store relationships between users and photos, to know who owns which photo. We also need to store the list of people a user follows. For both of these tables, we can use a wide-column datastore like Cassandra. For the ‘UserPhoto’ table, the ‘key’ would be ‘UserID’ and the ‘value’ would be the list of ‘PhotoIDs’ the user owns, stored in different columns. We will have a similar scheme for the ‘UserFollow’ table.
+
+# High Level Design:
+
+    ![Alt text](image.png)
+    Focus on 2 major aspects:
+
+        - Upload photos
+        - Search/View Photos
+
+# Design
+
+    - Uploading users can consume all the available connections, as uploading is a slow process. This means that ‘reads’ cannot be served if the system gets busy with all the write requests. We should keep in mind that web servers have a connection limit before designing our system.
+    - If we assume that a web server can have a maximum of 500 connections at any time, then it can’t have more than 500 concurrent uploads or reads. To handle this bottleneck we can split reads and writes into separate services. We will have dedicated servers for reads and different servers for writes to ensure that uploads don’t hog the system.
+
+    1. Reliability and redundancy:
+
+       - Very importnant aspect, cannot lose files.
+       - Therefore, we will store multiple copies of each file so that if one storage server dies we can retrieve the photo from the other copy present on a different storage server.
+       Redundancy removes single point of failure.
+
+    2. Data Sharding:
+
+        a. Partitioning based on UserID
+
+        b. Partitioning based on PhotoID
