@@ -11,3 +11,6 @@
 - 8. Linear Search :Find first occurence of the given element.
 - [9. Given two sorted array, find union of the array](./UnionArray.java)
 - [10. Given two sorted array, find intersection of the array](./Intersextion.java)
+- [11. Finding missing element](./MissingElement.java)
+- 12. Find maximum number of consecutive ones/
+- 13. Find number that appears one, while rest appear twice.
