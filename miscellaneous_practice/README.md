@@ -14,3 +14,7 @@
 - [11. Finding missing element](./MissingElement.java)
 - 12. Find maximum number of consecutive ones/
 - 13. Find number that appears one, while rest appear twice.
+- [14. Subarray with sum k](./Subarraysum.java)
+- 15. Two sum (return boolean, return index)
+- 16. Sort 0s,1s,2s
+- 17. Element occuring more than N/2 times.
