@@ -10,6 +10,7 @@ public class RotateMatrix {
     public static void rotate(int[][] matrix) {
         /**
          *rotating clockwise and swap
+         * Brute force: Take a new matrix, [j],[n-1-i]
          */
 
         int row=0,column=0;

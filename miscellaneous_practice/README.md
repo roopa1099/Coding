@@ -18,3 +18,10 @@
 - 15. Two sum (return boolean, return index)
 - 16. Sort 0s,1s,2s
 - 17. Element occuring more than N/2 times.
+- 18. Maximum Sum Subarray(Kandane algo)
+- [19. Given an array of stocks, find max profit possible.](./MaxProfitStock.java)
+- [20. Given array of element, find next possible permutation of the array.](./NextPossiblePermutaion.java)
+- 21. Leaders in an array.(All elements to the right is smaller)
+- [22. Longest consecutive sequence](./)
+- 23. Set Matrix Zeroes(Make entire rows and col 0 based n 0s )
+- 24. Rotate matrix by 90 deg.

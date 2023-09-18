@@ -8,6 +8,8 @@ package com.coding.matrix;
  */
 public class Convert1To0 {
 
+    // bruteforce: Make ntire respictive col and row -1, except the values that are 0
+
     public static void convertMatrix(int[][] matrix) {
 
         boolean row_flag=false,col_flag=false;
