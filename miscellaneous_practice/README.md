@@ -14,7 +14,7 @@
 - [11. Finding missing element](./MissingElement.java)
 - 12. Find maximum number of consecutive ones/
 - 13. Find number that appears one, while rest appear twice.
-- [14. Subarray with sum k](./Subarraysum.java)
+- [14. ***Important*** Subarray with sum k](./Subarraysum.java)
 - 15. Two sum (return boolean, return index)
 - 16. Sort 0s,1s,2s
 - 17. Element occuring more than N/2 times.
@@ -22,6 +22,8 @@
 - [19. Given an array of stocks, find max profit possible.](./MaxProfitStock.java)
 - [20. Given array of element, find next possible permutation of the array.](./NextPossiblePermutaion.java)
 - 21. Leaders in an array.(All elements to the right is smaller)
-- [22. Longest consecutive sequence](./)
+- [22. Longest consecutive sequence](./LongestConsecutiveSubsequence.java)
 - 23. Set Matrix Zeroes(Make entire rows and col 0 based n 0s )
 - 24. Rotate matrix by 90 deg.
+- [25. Number of subarray with given sum.](./CountSubarraySumK.java)
+- 26. Matrix in spiral format.
