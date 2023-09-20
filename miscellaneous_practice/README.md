@@ -1,7 +1,7 @@
 
 # Questions Revised
 
-- [1. Remove duplicate in place from a sorted array](./RemoveDuplicate.java)
+- [1. ***Important*** Remove duplicate in place from a sorted array](./RemoveDuplicate.java)
 - 2. Check if array is sorted.
 - 3. Find largest element.
 - 4. Find second largest element.
@@ -27,3 +27,7 @@
 - 24. Rotate matrix by 90 deg.
 - [25. Number of subarray with given sum.](./CountSubarraySumK.java)
 - 26. Matrix in spiral format.
+- 27. 3 Sum.
+- 28. Elements ocurring more than n/3 times.
+- 29. 4 Sum
+- [30. ***Important*** Max Subarray Product](./MaxSubarrayProd.java)

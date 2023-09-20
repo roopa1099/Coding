@@ -2,6 +2,7 @@ package designpattern.com.designpattern.adapterpattern;
 
 public class WeatherAdapter {
 
+    // the user might want to send zipcode instead of city name, so adapter does the conversion from zipcode to city
     public int findTemperature(int zipcode){
     String city;
     if(zipcode==19012){

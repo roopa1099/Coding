@@ -7,6 +7,7 @@ public class WeatherFinder implements WeatherInterface{
      */
     @Override
     public int showTemp(String city) {
+        //  based on city return temperature
         return 33;
     }
     
