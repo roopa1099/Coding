@@ -1,7 +1,6 @@
-
 # Questions Revised
 
-- [1. ***Important*** Remove duplicate in place from a sorted array](./RemoveDuplicate.java)
+- [1. Remove duplicate in place from a sorted array](./RemoveDuplicate.java)
 - 2. Check if array is sorted.
 - 3. Find largest element.
 - 4. Find second largest element.
@@ -14,7 +13,7 @@
 - [11. Finding missing element](./MissingElement.java)
 - 12. Find maximum number of consecutive ones/
 - 13. Find number that appears one, while rest appear twice.
-- [14. ***Important*** Subarray with sum k](./Subarraysum.java)
+- [14. **_Important_** Subarray with sum k](./Subarraysum.java)
 - 15. Two sum (return boolean, return index)
 - 16. Sort 0s,1s,2s
 - 17. Element occuring more than N/2 times.
@@ -30,4 +29,8 @@
 - 27. 3 Sum.
 - 28. Elements ocurring more than n/3 times.
 - 29. 4 Sum
-- [30. ***Important*** Max Subarray Product](./MaxSubarrayProd.java)
+- [30. **_Important_** Max Subarray Product](./MaxSubarrayProd.java)
+- 31. Find repeating and duplicate elements in array containing elements from [1,N]
+- [32. Sort elements in array without using extra space.(Merge Sort)](./MergeSort.java)
+- [33. Find count of subarray with xor "k".](./SubarrayWithKXor.java)
+- [34. Given an array of N integers, count the inversion of the array](./InversionCount.java)
