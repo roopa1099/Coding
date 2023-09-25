@@ -1,5 +1,7 @@
 # Questions Revised
 
+# Array
+
 - [1. Remove duplicate in place from a sorted array](./RemoveDuplicate.java)
 - 2. Check if array is sorted.
 - 3. Find largest element.
@@ -34,3 +36,12 @@
 - [32. Sort elements in array without using extra space.(Merge Sort)](./MergeSort.java)
 - [33. Find count of subarray with xor "k".](./SubarrayWithKXor.java)
 - [34. Given an array of N integers, count the inversion of the array](./InversionCount.java)
+
+# Binary Search
+
+// Whenever we need to search in a sorted array, go with this approach
+// Always try to eliminate one side
+
+- [35. **Important** Find if a given number exists, or position where it should be inserted](./PositionOfGivenNumber.java)
+- [36. Given a sorted array, find first and last of the given number.](./FirstAndLastOccurrenceOfElement.java)
+- [37. Given a sorted array, find count of the given number.](./FirstAndLastOccurrenceOfElement.java)
