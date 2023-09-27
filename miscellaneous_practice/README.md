@@ -51,3 +51,4 @@
 - [41. Find number of roataion in sorted rotated array](./FindMinimumOfSortedRotated)
 - 42. In a sorted array, find the element that happens once, rest all appears twice.(index as odd is same as index-1, use this rule for elimination)
 - [43. Given sorted array, find peak element](./PeakElement.java)
+- 44. Finding Sqrt of a number using Binary Search.
