@@ -53,5 +53,6 @@
 - [43. Given sorted array, find peak element](./PeakElement.java)
 - 44. Finding Sqrt of a number using Binary Search.
 - 45. Find Nth root of a number, else return -1( Handle case of overflow, keep check for every n*n*n... value is less than N).
-- [46. KoKo eats Banana.](./KoKoBanana.java)
-- [47. Make m bouquets.](./MinimumBouquets.java)
+- [46. **Important** KoKo eats Banana.](./KoKoBanana.java)
+- [47. **Important** Make m bouquets.](./MinimumBouquets.java)
+- [48. Find the Smallest Divisor Given a Threshold for sum](./SmallestDivisorToReachThresholdSum.java)
