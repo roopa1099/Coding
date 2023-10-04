@@ -42,6 +42,8 @@ public class KoKoBanana {
      * @return
      */
     public static int bananaPerHour(int[] array, int timeLimit) {
+        // array might not be sorted, need to calculate max, minimum will anyhow start
+        // from 1 banana
         int low = 1, high = array[array.length - 1];
         while (low <= high) {
             int mid = (low + high) / 2;
