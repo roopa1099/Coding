@@ -1,0 +1,30 @@
+## Questions
+
+1. What are design patterns?
+Ans. - Solution to common repeating problems like repetitive code, redundant functions and logic etc..
+     - Help maintain good coding practice.
+
+2. What are the types of design patterns in Java?
+Ans. - Creational DP - Deals with object creation, hiding logic about object creation, object constrcution is decoupled from  implementataion of system.(Factory design pattern, Builder design, Prototype design, Singleton design, Abstract Factory design.)
+     - Structural DP - Defines how structure of classes and object should be. Defines interface and composition of classes and objects to form larger structure.(Adapter pattern, Facade Pattern, Decorator Pattern, Proxy Pattern).
+     - Behavioural DP - Deals with communication of one object with another. Like Iterator Pattern, Observer Pattern, Strategy Pattern.
+
+3. What is Inversion of Control?
+Ans. Helps in decoupling the dependency between layers and components in a system.
+
+4. What is a Factory Design Pattern?
+
+5. What is an Adapter Design Pattern?
+
+6. What is a Proxy Design Pattern?
+
+7. What is a Bridge Design Pattern?
+https://www.scaler.com/topics/design-patterns/bridge-design-pattern/
+
+8. What are some instances where we prefer abstract classes over interfaces in Java?
+Ans. Interfaces - Multiple interfaces can be implemented
+                - Due to this class can have multiple behaviour
+     Abstract Class - Faster
+                    - No need to oveeride all methods
+
+9.  What is Decorator Design Pattern?

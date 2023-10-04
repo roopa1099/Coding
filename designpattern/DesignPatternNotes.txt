@@ -88,7 +88,7 @@ Notes:
                  DAOs can be used by other layers like presentation layer/business logic layer.
                  DAO contains the database methods.
 
-22. Proxy pattern: Proxy servers present in between layers, gives the feel of original server.
+22. Proxy pattern: Proxy servers present in between layers, gives the feel of original server. lets the developers provide a substitute for another object. This is called a proxy object. This helps to control the access to the original object and allows us to perform many tasks before or after the request reaches the original object. 
 
 23. Remote proxy: Exists between a client system and server lying on some other system. It comuunicates with the remote server and
                   and brings back reaponse.

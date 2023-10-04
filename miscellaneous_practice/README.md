@@ -52,3 +52,5 @@
 - 42. In a sorted array, find the element that happens once, rest all appears twice.(index as odd is same as index-1, use this rule for elimination)
 - [43. Given sorted array, find peak element](./PeakElement.java)
 - 44. Finding Sqrt of a number using Binary Search.
+- 45. Find Nth root of a number, else return -1( Handle case of overflow, keep check for every n*n*n... value is less than N).
+- [46. KoKo eats Banana.](./KoKoBanana.java)
