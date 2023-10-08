@@ -56,6 +56,6 @@
 - [46. **Important** KoKo eats Banana.](./KoKoBanana.java)
 - [47. **Important** Make m bouquets.](./MinimumBouquets.java)
 - [48. Find the Smallest Divisor Given a Threshold for sum](./SmallestDivisorToReachThresholdSum.java)
-- [49. The maximum number of pages assigned to a student is minimum](./AllocateBooksToStudents.java)
-- [50. Max of Minimum distance between 2 cows](./FindMaxOfMinCows.java)
+- [49. **Important** The maximum number of pages assigned to a student is minimum](./AllocateBooksToStudents.java)
+- [50. **Important** Max of Minimum distance between 2 cows](./FindMaxOfMinCows.java)
 - [51. Painter's Partition and Split Array - Largest Sum -- Same as Allocate Books](./AllocateBooksToStudents.java)
