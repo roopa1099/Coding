@@ -1,3 +1,4 @@
+package miscellaneous_practice;
 public class FindMinimumOfSortedRotated {
     public static int res = -1;
 

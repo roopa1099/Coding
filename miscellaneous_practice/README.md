@@ -59,3 +59,7 @@
 - [49. **Important** The maximum number of pages assigned to a student is minimum](./AllocateBooksToStudents.java)
 - [50. **Important** Max of Minimum distance between 2 cows](./FindMaxOfMinCows.java)
 - [51. Painter's Partition and Split Array - Largest Sum -- Same as Allocate Books](./AllocateBooksToStudents.java)
+- [52. **Important** Given two sorted arrays arr1 and arr2 of size m and n respectively, return the median of the two sorted arrays.](./MedianInArray.java)
+- [53. Kth element in 2 sorted array combined](./MedianInArray.java)
+- 54. *****TODO***** Maximum distance between gas stations.
+

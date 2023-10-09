@@ -1,4 +1,4 @@
-import java.lang.reflect.Array;
+package miscellaneous_practice;
 import java.util.Arrays;
 
 public class FindMaxOfMinCows {
