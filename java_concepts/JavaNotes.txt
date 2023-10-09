@@ -1,0 +1,36 @@
+
+1. .equals() and ==, obj1.equals(obj2) compares the instance whee as == compares the value.
+        Obj obj1=new Obj(23);
+        Obj obj2=new Obj(23);
+        obj1.equals(obj2) is false, ob1==obj2 is true
+
+hashCode(obj) gives he hash code value to store any object.
+When .equals() is true, hashCode values are same always
+When .equals() is false, need not mean hashCode() is different
+
+2. Inheritance: Multiple inheritanc is not supported.
+3. Method Overloading and Method Overriding
+4. Interface variables are by default public static final, private cannt be declared.
+5. All methods of interface must be implemeneted in subclass.
+6. Implements interface.
+7. Interface methods can have default impomentation from java 8.
+8. Interface example hashmap implements map.
+9. Abstract Class might not have abstract methods, but abstract methods can only be declared in abstract Class.
+10. Abstract class cannot be instantiated.
+11. Abstract class when to use? Abstract class methods can have different visibility unlike inteface.
+12. Constructor - If you provide a constructor then no argument constructor which is by default constructor get overriden.
+Then no argument constructor cannot be called after defining 1 argument constructor.
+13. super() calls parent class constructor. super() mustt be called in the first line of constructor.
+14. Callig another constrcutor in same class using "this".
+     class Animal{
+
+        public Animal(){
+            this("hello")
+        }
+
+        public Animal(str:string){
+            sysout(str)
+        }
+     }
+15. Without se of super also by befault parent class construct gets called.
+
