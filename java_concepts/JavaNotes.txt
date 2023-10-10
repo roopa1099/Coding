@@ -1,5 +1,5 @@
 
-1. .equals() and ==, obj1.equals(obj2) compares the instance whee as == compares the value.
+1. **** .equals() and ==, obj1.equals(obj2) compares the instance whee as == compares the value.
         Obj obj1=new Obj(23);
         Obj obj2=new Obj(23);
         obj1.equals(obj2) is false, ob1==obj2 is true
@@ -21,7 +21,7 @@ When .equals() is false, need not mean hashCode() is different
 12. Constructor - If you provide a constructor then no argument constructor which is by default constructor get overriden.
 Then no argument constructor cannot be called after defining 1 argument constructor.
 13. super() calls parent class constructor. super() mustt be called in the first line of constructor.
-14. Callig another constrcutor in same class using "this".
+14.*** Callig another constrcutor in same class using "this".
      class Animal{
 
         public Animal(){
@@ -33,4 +33,57 @@ Then no argument constructor cannot be called after defining 1 argument construc
         }
      }
 15. Without se of super also by befault parent class construct gets called.
+16. Polymorphsim:
+            Animal animal=new Dog();
+            Animal animal2=new Cat();
+            animal can only use methods defined in dog and animal2 can do for Cat.
+17. *** intancOf Opertaor: To check object type is of a particular class. The object will be instance of 
+    its parent also.
+        Object obj=new Object();
+        obj instanceOf(Object.class)
+18. Coupling: Change in one class causes change in other classes also.
+19. Cohesive: How related responsibilities of a class methods are. More cohesive more relted.
+20. Classes should be highly cohesive.
+21. Encapsulation: Hiding the implmentation of a class behind an interface.
+
+
+        Scorer score=new Scorer();
+        score.four();// no one knows implmenetation behind 
+        score.six()// no one knows implmenetation
+22. Inner class and Static Inner class: STatic Inner class contans non static members also
+23.**** You need no to make Outer class object instance to create inner class instance in static Inner class.
+24.**** Inner classes can access the variables of the outer class, including the private instance variables.
+    Unlike the non-static nested classes, the static nested class cannot directly access the instance variables
+    or methods of the outer class. They can access them by referring to an object of a class.
+25. Anonymous class:Comparator
+
+        Animal anm=new Animal({
+            void bak(){
+                sysout("bow bow")
+            }
+        })
+
+26. Modifiers: Default, public, protected, private
+27. Default: Accessible in same package only.
+28. Private: Only accessible in class, not even subclasses
+29: Protected : Available in subclass
+30. In a same package class: Default, publc, protetced are accessible.
+31. In different package only public is available..
+32. Final Variable: Extending final class not possible.
+33. String, Integer classesa are final, bcoz they are immutable .
+34. Final methods cannot be overriden. Useful where parent wants to keep method constant.
+35. Final variable: Fixed vaue.
+36. If a agument is final, it cannot be modified.
+37. Static creates class level memebers.
+38. Each instance of class will not have unique instance that static variable. 
+39. Static methods only allw static variables, not instance variables.
+40. Local variables defined in amethod cannot be static.
+41. The assignment statement always returns the same value back.
+    if(isTrue=true){}
+    This condition is true becoz assignment returns value true.\
+42. Infinite loop: for(;;){}
+43. break outer, will break out of outer loop which is lopp inside loop case.
+46. toString() is a method of Object class. Which you do sysout(obj) it return toString() value of a object.
+    We can override toSTring() method if we want to print values.
+
 
