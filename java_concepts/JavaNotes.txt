@@ -83,7 +83,7 @@ Then no argument constructor cannot be called after defining 1 argument construc
     This condition is true becoz assignment returns value true.\
 42. Infinite loop: for(;;){}
 43. break outer, will break out of outer loop which is lopp inside loop case.
-46. toString() is a method of Object class. Which you do sysout(obj) it return toString() value of a object.
+44. toString() is a method of Object class. Which you do sysout(obj) it return toString() value of a object.
     We can override toSTring() method if we want to print values.
 
 
