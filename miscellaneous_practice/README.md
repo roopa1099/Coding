@@ -73,3 +73,5 @@
 - [60. Count subsequence with sum k if any(no to print all subsequnce)](./SubsequenceWithSum.java)
 - 61. Merge sort using recursion(Merge sort takes extra space).
 - [62. QuickSort](./QuickSOrtRecursion.java)
+- [63. Find all possible combinations of elements that will sum upto N. he elements can repeat any number of times.](./CombinationSum.java)
+- [64. ***Important*** Find all unique combinations in candidates where the candidate numbers sum to target. Only unique](./CombinationSum.java)
