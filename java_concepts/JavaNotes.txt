@@ -84,6 +84,62 @@ Then no argument constructor cannot be called after defining 1 argument construc
 42. Infinite loop: for(;;){}
 43. break outer, will break out of outer loop which is lopp inside loop case.
 44. toString() is a method of Object class. Which you do sysout(obj) it return toString() value of a object.
-    We can override toSTring() method if we want to print values.
+    We can override toSTring() method if we want to print values. So when you print array, it prints address in
+    string format.
+    Arrays.toString(array) // will print values in array.
+    Arrays.deepToString(). // for 2d
+45. Have unique id for different exceptions.
+46. Finally block in try catch is mainly used for any cleanup that needs to be done, like close connection etc.
+47. Even if there is a return statement in catch, still finally will be executed. Finally will not be executed,
+only when there is another catch inside finally or JVM crashes.
+48. try blck should always have a catch or finally or both. 
+49. Exceptions are of 2 types: Checked and unchecked exceptions.
+50 Checked exceptions are used when you want calling method of that method to handle exception, where as when you
+don't want caling method to handle exceptions then you use unchecked exception.
+51. Extending Exception : Checked Exception, Entending RuntimeException : Unchecked Exception.
+52. Errors cannot be handled by programmer, exceptions are.
+53. We need to add "throws Exception" in our methods if we are throwing checked exception. The calling method needs to
+either handle the try catch, or will have to add "throws Exception".
+54. Order of exeption must always be from specific to generic in catch. Otherwise compilation error.
+55. We can add multiple exception in one catch(Exceotion1 | Exception2){}
+56. Intger array, is initialised with 0, boolean with false
+57. Array of objects is iniialised withnull values.
+58. .equals() also work for array, if elements are equal.
+59. Enum is used when a specific type can have fixed set of values.
+60. Enum can have variable and methods.
+61. Variable arguments:  It should always be last parameter if variable.
 
+    public void sum(int... numbers){
+        // internally treated like an array.
+    }
 
+    I can call this method with different number of arguments.
+62. Objects can also be variable arguments.
+63. Asserts: assert(age>10): Basic constraints, it is not a proper validation.
+64. Garbage collection happens automatically in java.
+65. static initializer loads / runs when a class is loaded.
+     static{
+        //
+     }
+69. Instance initializer loads whe a object is created.
+{
+    //
+}
+
+70. Serialize: Convert object to internal object representation.
+    Deserialize: Convert some internal object representation to object.
+71. ObjectOutputSTrean.writeObject() // Serialize
+    ObjectOutputSTrean.readObject() // deSerialize
+72. To serialize, a class should implement Serializable.
+73. Variables declared "transient" are not Serializable.
+74. Since static variables are part of the class and not obejct. they are not serializable.
+75. Collection interface: Set, List, Queue
+76. Map does not extend Collection interface.
+77. Arrayist, LinkedList and vector implment List Intreface.
+78. Insertion and deletion in LinkedList is faster than arraylist.
+79. LinkedList implements both queue and list interface.
+80. Set interface doesnot allow duplication.
+81. ArrayList insertion average time is O(n) while for hastset it is O(1).
+82. SortedSet keeps elements sorted.
+83. HashSet does not gurantee order of insertion whereas LinkedHashSet do.
+84. TreeSet is sorted, hence no order of inserion and no duplicates.
