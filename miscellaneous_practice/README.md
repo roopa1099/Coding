@@ -63,3 +63,13 @@
 - [53. Kth element in 2 sorted array combined](./MedianInArray.java)
 - 54. *****TODO***** Maximum distance between gas stations.
 
+
+# Recursion
+- [55. Sum of 1 to N numbers](./SumOfN.java)
+- 56. Reverse number using recursion.
+- 57. Fibonacci Series(t(c)= 2^N)
+- [58. All possible subsequence](./SubsequenceInArray.java)
+- [59. Print subsequence with sum k if any(no to print all subsequnce)](./SubsequenceWithSum.java)
+- [60. Count subsequence with sum k if any(no to print all subsequnce)](./SubsequenceWithSum.java)
+- 61. Merge sort using recursion(Merge sort takes extra space).
+- [62. QuickSort](./QuickSOrtRecursion.java)
