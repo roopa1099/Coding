@@ -75,3 +75,4 @@
 - [62. QuickSort](./QuickSOrtRecursion.java)
 - [63. Find all possible combinations of elements that will sum upto N. he elements can repeat any number of times.](./CombinationSum.java)
 - [64. ***Important*** Find all unique combinations in candidates where the candidate numbers sum to target. Only unique](./CombinationSum.java)
+- [65. Give all possible sum of subsets.](./AllSubsetSum.java)
