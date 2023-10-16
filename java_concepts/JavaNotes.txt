@@ -135,11 +135,32 @@ either handle the try catch, or will have to add "throws Exception".
 74. Since static variables are part of the class and not obejct. they are not serializable.
 75. Collection interface: Set, List, Queue
 76. Map does not extend Collection interface.
-77. Arrayist, LinkedList and vector implment List Intreface.
+77. Arrayist, LinkedList and vector implment List Interface.
 78. Insertion and deletion in LinkedList is faster than arraylist.
 79. LinkedList implements both queue and list interface.
 80. Set interface doesnot allow duplication.
 81. ArrayList insertion average time is O(n) while for hastset it is O(1).
 82. SortedSet keeps elements sorted.
 83. HashSet does not gurantee order of insertion whereas LinkedHashSet do.
-84. TreeSet is sorted, hence no order of inserion and no duplicates.
+84. TreeSet is sorted, hence no order of inserion and no duplicates. It is implementation of sorted set interace.
+85. Map is implemeneted by HashMap, SortMAp.
+86. SortedMap is helps in saving the data is sorted format. Sorting can be user defined. Tree Map
+87. HashMap ordring is not guranteed.
+88. HashMap allows key with ull value and is not syncronized. 
+89. HashTable does not allows key with ull value and is syncronized.     ****Linked, hash, sorted
+90. Linked HashMap: Order is maimtained.
+91. Queue used Collections interface. // add, remove, peek(), etc.
+92. Poll() and remove() does same thing, remove head. But remove throws error if queue is empty whereas
+poll() returns null.
+93. Dequeue allows insertion and deletion from both sides of the queue.
+94. BlockingQueue : Where we want to waitbefore performing acions on the queue until we have elements in the queue.
+95. **** Priority queue: Elements are stored in natural order.
+96. **** Difference between syncronized and concurrent collections in java?
+97. Syncronized/concurrent collections have syncronized methods. No pther thread can enter while performing an action.
+98 Concurrent Collection approaches:
+    a. CopyOnWrite //pdf - Example Publish Subscribe message
+    b. CompareAndSwap
+99. Generics: Help in creating Generic Classes and methods which can workwith different Type(class)
+    Example: List<Integer>
+             MyGeneric<T>: T can have more than 1 value at a time <Integer, String>
+             Only Allow few Types <T extends Number>
