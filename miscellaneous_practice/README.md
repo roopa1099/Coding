@@ -76,3 +76,6 @@
 - [63. Find all possible combinations of elements that will sum upto N. he elements can repeat any number of times.](./CombinationSum.java)
 - [64. ***Important*** Find all unique combinations in candidates where the candidate numbers sum to target. Only unique](./CombinationSum.java)
 - [65. Give all possible sum of subsets.](./AllSubsetSum.java)
+- [66. Give all unique possible sum of subsets.(Array elemnts can be duplicate)](./AllSubsetSum.java)
+- [67. ***Important***  Print all possible permutations of given array.](./AllPermutationOfArray.java)
+- [68. ***Important***  Print all possible permutations of given array without extra space.](./AllPermutationOfArray.java)
