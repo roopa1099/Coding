@@ -79,3 +79,5 @@
 - [66. Give all unique possible sum of subsets.(Array elemnts can be duplicate)](./AllSubsetSum.java)
 - [67. ***Important***  Print all possible permutations of given array.](./AllPermutationOfArray.java)
 - [68. ***Important***  Print all possible permutations of given array without extra space.](./AllPermutationOfArray.java)
+- [69. *** Important *** N Queens Problem](./NQueens.java)
+- 70. *** Important *** M Colouring problem: Given an undirected graph and a number m, determine if the graph can be colored with at most m colors such that no two adjacent vertices of the graph are colored with the same color.
