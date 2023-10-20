@@ -35,7 +35,7 @@
 - 31. Find repeating and duplicate elements in array containing elements from [1,N]
 - [32. Sort elements in array without using extra space.(Merge Sort)](./MergeSort.java)
 - [33. Find count of subarray with xor "k".](./SubarrayWithKXor.java)
-- [34. Given an array of N integers, count the inversion of the array](./InversionCount.java)
+- [34.***Important*** Given an array of N integers, count the inversion of the array](./InversionCount.java)
 
 # Binary Search
 
@@ -81,3 +81,4 @@
 - [68. ***Important***  Print all possible permutations of given array without extra space.](./AllPermutationOfArray.java)
 - [69. *** Important *** N Queens Problem](./NQueens.java)
 - 70. *** Important *** M Colouring problem: Given an undirected graph and a number m, determine if the graph can be colored with at most m colors such that no two adjacent vertices of the graph are colored with the same color.
+- [71. *** Important *** Kth Permutation sequence](./KthPermutation.java)

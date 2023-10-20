@@ -15,7 +15,9 @@ public class InversionCount {
                 temp[pt] = array[start1];
                 start1++;
             } else {
+          
                 temp[pt] = array[start2];
+                // all elements right to start1 wll also be greater than lement at start 2
                 count = count + (mid - start1 + 1);
                 start2++;
             }
