@@ -163,5 +163,55 @@ poll() returns null.
 99. Generics: Help in creating Generic Classes and methods which can workwith different Type(class)
     Example: List<Integer>
              MyGeneric<T>: T can have more than 1 value at a time <Integer, String>
-             Only Allow few Types <T extends Number>
-    
+             Only Allow few Types <T extends Number>.
+100. Thread
+101. Ways implementing thread is by extending Thread or Runnable, and define run method which contains work to be done by that thread
+How to run Thread, depends on what was extended either Thread or runnable.
+States of thread:
+      	1. New - When instance is created but start() is not called
+
+		2. Runnable: Ready to run
+
+		3. Running : start()
+
+		4. Waiting: Waiting for some thing
+
+		5. Terminated or Dead
+
+
+
+Example
+103. Priority of a thread: Based on priority CPU is allocated. By default it is 5
+104. threadObj.set(5) // setting priority.
+105. Executer Service: Service used to create a new thread and run parallel. Uses runnable interface
+106. Future is used to check if a thread started by Execution Service is completed or not, it return null if completed.
+107. Using Callable now we are able to return a value from thread.
+//example
+108. Synchronisation: Only allows one thread to access and execute the method at a time avoiding overriding.
+109. Use synchronised word
+110. We can also have a piece of code to be synchronised in a method: syncronized block.
+111. Static methods can also be synchronised.
+112. Join: threadObj.join() // means wait for this thread to complete. Then execute further.
+113. Or else we can wait for a certain time as well. threadObj.join(2000) // wait for 2000 ms after threadObj startes
+114. ThreadYield or threadObj.yeild() : It makes thread to go from running to runnable. It asks to execute other prior threads first as it has enough time to be executed.
+115. leep() : Lets the thread to go in sleep state.
+116. Deadlock: Thread 1 waiting for Thread 2 and vice versa
+117. wait(): Thread waits till another thread notifies it. It is notified using notify() or notifyAll(). //example
+118. In functional programming there is no change in the state of the program or it restricts mutable data
+ to become thread safe. It helps in scaling. //Example
+119. We use streams and lamba expressions in this.
+120. ***** A lambda expression is an anonymous method which is a short block of code which takes
+ in parameters and returns a value. It does a small operation like filter().
+121. Intermediae operation(filter, map, sorted), terminal operation(produces a result. example reduce()).
+122.********* Method references- :: shortcuts for lambda expression.
+123.Either we can use method refernce or lambda exprssion. Method references allow reusability.
+124. ** Check** A functional interface can have any number of default methods. Runnable, ActionListener, and 
+Comparable.Functioanl interface has only 1 method declared.
+125. ** Check** Functional intrface defines an input for lambda expressions. Inputs are predefine functional
+ interface.
+126. *********Lambda expression we implment a functional interface
+127. Strings are immutable.    
+128. The location of string in the memory actually depends on how we create them.
+129. String str="wd", stores it in string pool memory.
+130 If we create another string with same value, the existing string from same pool is reused.
+131. StringBuffer is thread safe, where as StringBuilder is not thread safe.
