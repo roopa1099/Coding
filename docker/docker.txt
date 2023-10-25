@@ -1,9 +1,22 @@
 - what is docker?
+
+Docker is a platform for developing, shipping, and running applications in containers.  
+Docker uses containerization technology to create and manage containers
+
 - why we need docker?
 - what is container?
+
+Standalone light weight executable packages that contain all necessary package and dependeicies, code and tools
+ required to run the the application.
+
 - what is docker image?
+The blueprint of the container, the are static and only readable. Containers are running instances of container.
+A single imae can have many instnaces/ containers.
+
 - docker file?
 - docker hub?
+Where we can store images.
+
 - containerd, CRI-O, rkt ...
 
 limitations - which solved by k8s:

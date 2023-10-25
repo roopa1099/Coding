@@ -82,3 +82,9 @@
 - [69. *** Important *** N Queens Problem](./NQueens.java)
 - 70. *** Important *** M Colouring problem: Given an undirected graph and a number m, determine if the graph can be colored with at most m colors such that no two adjacent vertices of the graph are colored with the same color.
 - [71. *** Important *** Kth Permutation sequence](./KthPermutation.java)
+
+## Linked List
+
+[72. Reverse a linked list.](./LL_Reverse.java)
+[73.  *** Important *** Find nth Node from end in a linked list.](./LL_NthNodeFromEnd.java)
+[74. *** Important *** Find mid element.](./MidElementLL.java)
