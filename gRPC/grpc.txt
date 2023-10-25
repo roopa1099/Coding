@@ -1,0 +1,64 @@
+## Notes
+
+1. In gRPC, a client application can directly call a method on a server application on 
+a different machine as if it were a local object, making it easier for you to create distributed 
+applications and services. 
+2. On the server side, the server implements this interface and runs a gRPC server to handle client calls.
+3. gRPC clients and servers can run and talk to each other in a variety of environments - from servers
+ inside Google to your own desktop - and can be written in any of gRPC’s supported languages. 
+ So, for example, you can easily create a gRPC server in Java with clients in Go, Python, or Ruby. 
+4.  Protocol buffer data is structured as messages, where each message is a small logical record
+ of information containing a series of name-value pairs called fields. Here’s a simple example:
+
+            message Person {
+            string name = 1;
+            int32 id = 2;
+            bool has_ponycopter = 3;
+            }
+5. the protocol buffer compiler protoc to generate data access classes in your preferred language(s)
+ from your proto definition.
+6. gRPC uses protoc with a special gRPC plugin to generate code from your proto file: you get generated gRPC
+ client and server code, as well as the regular protocol buffer code for populating, serializing, and 
+ retrieving your message types.
+7. *****Protocol buffers are a combination of the definition language (created in .proto files), the code 
+that the proto compiler generates to interface with data, language-specific runtime libraries, and the 
+serialization format for data that is written to a file (or sent across a network connection).
+8. Protocol buffers are the most commonly-used data format at Google. They are used extensively in inter-server
+ communications as well as for archival storage of data on disk.
+9. The proto compiler is invoked at build time on .proto files to generate code in various programming
+ languages (covered in Cross-language Compatibility later in this topic) to manipulate the corresponding
+ protocol buffer.
+
+                Person john = Person.newBuilder()
+                    .setId(1234)
+                    .setName("John Doe")
+                    .setEmail("jdoe@example.com")
+                    .build();
+                output = new FileOutputStream(args[0]);
+                john.writeTo(output);
+
+10. Protocol buffers are ideal for any situation in which you need to serialize structured, record-like,
+ typed data in a language-neutral, platform-neutral, extensible manner.
+11. The protoc compiler uses plugins for these languages:
+        Dart
+        Go
+12. You can use protocol buffers across projects by defining message types in .proto files that reside
+ outside of a specific project’s code base.
+13.  New fields will not be present in old messages; in these cases protocol buffers provide a reasonable
+ default values.
+14. How do Protocol Buffers Work?
+    a. Create .proto file to define data structure => .proto file
+    b. Generate code using the protoc compiler => .java, .py, .cc, or other source files
+    c. Compile PB code with your project code => Compiled classes.
+    d. Use PB classes to serialize, share, & deserialize data
+15. gRPC lets you define four kinds of service method:
+    a. Unary RPCs where the client sends a single request to the server and gets a single 
+    response back, just like a normal function call.
+    b. Server streaming RPCs where the client sends a request to the server and gets a stream to read a 
+    sequence of messages back. The client reads from the returned stream until there are no more messages.
+    gRPC guarantees message ordering within an individual RPC call.
+    c. Client streaming RPCs where the client writes a sequence of messages and sends them to the server, 
+    again using a provided stream. Once the client has finished writing the messages, it waits for the server 
+    to read them and return its response.
+    d. Bidirectional streaming RPCs where both sides send a sequence of messages using a read-write stream. The two
+    streams operate independently, so clients and servers can read and write in whatever order
