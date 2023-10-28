@@ -88,3 +88,7 @@
 [72. Reverse a linked list.](./LL_Reverse.java)
 [73.  *** Important *** Find nth Node from end in a linked list.](./LL_NthNodeFromEnd.java)
 [74. *** Important *** Find mid element.](./MidElementLL.java)
+[75. Merge two sorted linked list witjhout extra space.](./MergeLinkedList.java)
+[76. Delete a Node given only the Node to be deleted.](./DeleteANode.java)
+[77. Sum of elements of linked list.](./SumOfElements_LL.java)
+78. ***Impoertant*** Point of ntersection in a linked list.
