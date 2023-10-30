@@ -93,3 +93,4 @@
 [77. Sum of elements of linked list.](./SumOfElements_LL.java)
 78. ***Important*** Point of intersection in a linked list.(Remove extra elemets from longer LL, and then move pt1 and pt2)
 79. Detect a Cycle in linkdlist, return true or false(Sol=> slow and fast pointer).
+[80. Check if pallindrome](./CheckForPallindrome.java)
