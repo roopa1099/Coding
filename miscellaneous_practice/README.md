@@ -85,12 +85,13 @@
 
 ## Linked List
 
-[72. Reverse a linked list.](./LL_Reverse.java)
-[73.  *** Important *** Find nth Node from end in a linked list.](./LL_NthNodeFromEnd.java)
-[74. *** Important *** Find mid element.](./MidElementLL.java)
-[75. Merge two sorted linked list witjhout extra space.](./MergeLinkedList.java)
-[76. Delete a Node given only the Node to be deleted.](./DeleteANode.java)
-[77. Sum of elements of linked list.](./SumOfElements_LL.java)
-78. ***Important*** Point of intersection in a linked list.(Remove extra elemets from longer LL, and then move pt1 and pt2)
-79. Detect a Cycle in linkdlist, return true or false(Sol=> slow and fast pointer).
-[80. Check if pallindrome](./CheckForPallindrome.java)
+- [72. Reverse a linked list.](./LL_Reverse.java)
+- [73.  *** Important *** Find nth Node from end in a linked list.](./LL_NthNodeFromEnd.java)
+- [74. *** Important *** Find mid element.](./MidElementLL.java)
+- [75. Merge two sorted linked list witjhout extra space.](./MergeLinkedList.java)
+- [76. Delete a Node given only the Node to be deleted.](./DeleteANode.java)
+- [77. Sum of elements of linked list.](./SumOfElements_LL.java)
+- 78. ***Important*** Point of intersection in a linked list.(Remove extra elemets from longer LL, and then move pt1 and pt2)
+- 79. Detect a Cycle in linkdlist, return true or false(Sol=> slow and fast pointer).
+- [80. Check if pallindrome](./CheckForPallindrome.java)
+- [81. Rotate a given linked list.](./RotateLL.java)
