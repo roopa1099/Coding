@@ -1,7 +1,9 @@
 package miscellaneous_practice;
 
 /**
- * Logic????
+ * Logic here is if I have total n elements, and need to find kth from end, then that element is 
+ *  k from end is basically, diff== n-k; this diff is basically left over elements from beg, the next element to left over elements frpm begining is the
+ * kth element from end.
  * Fast pointer slow poiter
  */
 public class LL_NthNodeFromEnd {
