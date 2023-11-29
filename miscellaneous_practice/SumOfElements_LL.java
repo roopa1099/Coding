@@ -19,7 +19,7 @@ public class SumOfElements_LL {
 
             sum=sum+carry;
             carry=sum/10;
-            Node newSum=new Node(sum);
+            Node newSum=new Node(sum%10);
             if(temp==null){
                 temp=newSum;
             }
