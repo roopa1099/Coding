@@ -95,3 +95,4 @@
 - 79. Detect a Cycle in linkdlist, return true or false(Sol=> slow and fast pointer).
 - [80. Check if pallindrome](./CheckForPallindrome.java)
 - [81. Rotate a given linked list.](./RotateLL.java)
+- [82. Clone linked list having next and random nodes](./CloneLL.java)
