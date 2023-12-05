@@ -96,3 +96,4 @@
 - [80. Check if pallindrome](./CheckForPallindrome.java)
 - [81. Rotate a given linked list.](./RotateLL.java)
 - [82. Clone linked list having next and random nodes](./CloneLL.java)
+- [83. LRU Cache](./LRUCache.java)
