@@ -97,3 +97,20 @@
 - [81. Rotate a given linked list.](./RotateLL.java)
 - [82. Clone linked list having next and random nodes](./CloneLL.java)
 - [83. LRU Cache](./LRUCache.java)
+<!-- - [84. LFU]() -->
+
+# Trees
+Points
+    a. Full binary tree, all ndes have 0 or 2 children
+    b. Complete binary tree: All levels are completely filled except last level. Last level has all nodes as left as possible.
+    c.  Leaf node has no child.
+    d. Perfect binary tree: All leaf node are at same level.
+    e. Balanced binary tree: If there are n nodes, then the height ofthe binary tree must be log n (base 2).
+    f. Degenerate tree : Kind of linked list, it is a skewed tree, or a linked list in verical form. Every node has single child.
+    g. DFS : Inorder, preorder, postorder.
+    h. BFS : Level order
+
+- [85. Inorder Traversal](./InorderTraversal.java)
+- 86. Preorder Traversal
+- [87. Post Order Traversal](./PostorderTraversal.java)
+- [88. Levelorder Traversal](./LevelOrderTraversal.java)
