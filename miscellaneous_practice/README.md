@@ -117,3 +117,8 @@ Points
 - [89. Iterative preorder traveral](./IterartivePreorder.java)
 - [90. Iterative Inorder Traersal](./IterativeInorder.java)
 - [91. Iterative Postorder Traversal](./IterativePostorder.java)
+- [92. Preorder, postorder, inorder Traversal](./PreInPostTraversal.java)
+- [93. Max height in tree](./MaxHeightInTree.java)
+- [94. Check if tree is balanced](./MaxHeightInTree.java)
+- [95. Diameter of tree.](./DiameterOfTree.java)
+- [96. Max path sum](./MaxPathSum.java)
