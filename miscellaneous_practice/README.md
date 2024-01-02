@@ -122,3 +122,6 @@ Points
 - [94. Check if tree is balanced](./MaxHeightInTree.java)
 - [95. Diameter of tree.](./DiameterOfTree.java)
 - [96. Max path sum](./MaxPathSum.java)
+- 97. Check if given two binary tree are identical.
+- [98. ***Important*** Boundary Traversal.](./BoundaryTraversal.java)
+- 99. ZigZag traversal.
