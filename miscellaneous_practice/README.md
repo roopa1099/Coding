@@ -35,7 +35,7 @@
 - 31. Find repeating and duplicate elements in array containing elements from [1,N]
 - [32. Sort elements in array without using extra space.(Merge Sort)](./MergeSort.java)
 - [33. Find count of subarray with xor "k".](./SubarrayWithKXor.java)
-- [34.***Important*** Given an array of N integers, count the inversion of the array](./InversionCount.java)
+- [34.**_Important_** Given an array of N integers, count the inversion of the array](./InversionCount.java)
 
 # Binary Search
 
@@ -61,10 +61,10 @@
 - [51. Painter's Partition and Split Array - Largest Sum -- Same as Allocate Books](./AllocateBooksToStudents.java)
 - [52. **Important** Given two sorted arrays arr1 and arr2 of size m and n respectively, return the median of the two sorted arrays.](./MedianInArray.java)
 - [53. Kth element in 2 sorted array combined](./MedianInArray.java)
-- 54. *****TODO***** Maximum distance between gas stations.
-
+- 54. **\***TODO**\*** Maximum distance between gas stations.
 
 # Recursion
+
 - [55. Sum of 1 to N numbers](./SumOfN.java)
 - 56. Reverse number using recursion.
 - 57. Fibonacci Series(t(c)= 2^N)
@@ -74,24 +74,24 @@
 - 61. Merge sort using recursion(Merge sort takes extra space).
 - [62. QuickSort](./QuickSOrtRecursion.java)
 - [63. Find all possible combinations of elements that will sum upto N. he elements can repeat any number of times.](./CombinationSum.java)
-- [64. ***Important*** Find all unique combinations in candidates where the candidate numbers sum to target. Only unique](./CombinationSum.java)
+- [64. **_Important_** Find all unique combinations in candidates where the candidate numbers sum to target. Only unique](./CombinationSum.java)
 - [65. Give all possible sum of subsets.](./AllSubsetSum.java)
 - [66. Give all unique possible sum of subsets.(Array elemnts can be duplicate)](./AllSubsetSum.java)
-- [67. ***Important***  Print all possible permutations of given array.](./AllPermutationOfArray.java)
-- [68. ***Important***  Print all possible permutations of given array without extra space.](./AllPermutationOfArray.java)
-- [69. *** Important *** N Queens Problem](./NQueens.java)
-- 70. *** Important *** M Colouring problem: Given an undirected graph and a number m, determine if the graph can be colored with at most m colors such that no two adjacent vertices of the graph are colored with the same color.
-- [71. *** Important *** Kth Permutation sequence](./KthPermutation.java)
+- [67. **_Important_** Print all possible permutations of given array.](./AllPermutationOfArray.java)
+- [68. **_Important_** Print all possible permutations of given array without extra space.](./AllPermutationOfArray.java)
+- [69. **_ Important _** N Queens Problem](./NQueens.java)
+- 70. **_ Important _** M Colouring problem: Given an undirected graph and a number m, determine if the graph can be colored with at most m colors such that no two adjacent vertices of the graph are colored with the same color.
+- [71. **_ Important _** Kth Permutation sequence](./KthPermutation.java)
 
 ## Linked List
 
 - [72. Reverse a linked list.](./LL_Reverse.java)
-- [73.  *** Important *** Find nth Node from end in a linked list.](./LL_NthNodeFromEnd.java)
-- [74. *** Important *** Find mid element.](./MidElementLL.java)
+- [73. **_ Important _** Find nth Node from end in a linked list.](./LL_NthNodeFromEnd.java)
+- [74. **_ Important _** Find mid element.](./MidElementLL.java)
 - [75. Merge two sorted linked list witjhout extra space.](./MergeLinkedList.java)
 - [76. Delete a Node given only the Node to be deleted.](./DeleteANode.java)
 - [77. Sum of elements of linked list.](./SumOfElements_LL.java)
-- 78. ***Important*** Point of intersection in a linked list.(Remove extra elemets from longer LL, and then move pt1 and pt2)
+- 78. **_Important_** Point of intersection in a linked list.(Remove extra elemets from longer LL, and then move pt1 and pt2)
 - 79. Detect a Cycle in linkdlist, return true or false(Sol=> slow and fast pointer).
 - [80. Check if pallindrome](./CheckForPallindrome.java)
 - [81. Rotate a given linked list.](./RotateLL.java)
@@ -100,15 +100,16 @@
 <!-- - [84. LFU]() -->
 
 # Trees
+
 Points
-    a. Full binary tree, all ndes have 0 or 2 children
-    b. Complete binary tree: All levels are completely filled except last level. Last level has all nodes as left as possible.
-    c.  Leaf node has no child.
-    d. Perfect binary tree: All leaf node are at same level.
-    e. Balanced binary tree: If there are n nodes, then the height ofthe binary tree must be log n (base 2).
-    f. Degenerate tree : Kind of linked list, it is a skewed tree, or a linked list in verical form. Every node has single child.
-    g. DFS : Inorder, preorder, postorder.
-    h. BFS : Level order
+a. Full binary tree, all ndes have 0 or 2 children
+b. Complete binary tree: All levels are completely filled except last level. Last level has all nodes as left as possible.
+c. Leaf node has no child.
+d. Perfect binary tree: All leaf node are at same level.
+e. Balanced binary tree: If there are n nodes, then the height ofthe binary tree must be log n (base 2).
+f. Degenerate tree : Kind of linked list, it is a skewed tree, or a linked list in verical form. Every node has single child.
+g. DFS : Inorder, preorder, postorder.
+h. BFS : Level order
 
 - [85. Inorder Traversal](./InorderTraversal.java)
 - 86. Preorder Traversal
@@ -123,5 +124,11 @@ Points
 - [95. Diameter of tree.](./DiameterOfTree.java)
 - [96. Max path sum](./MaxPathSum.java)
 - 97. Check if given two binary tree are identical.
-- [98. ***Important*** Boundary Traversal.](./BoundaryTraversal.java)
+- [98. **_Important_** Boundary Traversal.](./BoundaryTraversal.java)
 - 99. ZigZag traversal.
+- 100. Vertical View of Tree.
+- [101. Top view of a tree.](./TopViewOfTree.java)
+- 102. Bottom view of tree.(Instead of allowing only one , the values of the key should be updated every time in the map.)
+- [103. Right or left view of Tree.](./RightLeftView.java)
+- [104. Symmetric Tree](./SymmetricalTree.java)
+- [105. Root to node path.](./RootToNode.java)
