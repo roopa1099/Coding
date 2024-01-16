@@ -132,3 +132,6 @@ h. BFS : Level order
 - [103. Right or left view of Tree.](./RightLeftView.java)
 - [104. Symmetric Tree](./SymmetricalTree.java)
 - [105. Root to node path.](./RootToNode.java)
+- [106. Lowest common ancestor](./LowestCommonAnc.java)
+- [107. Children sum property binary tree](./ChildSumProp.java)
+- 108. **\*\*\*\***Important\***\*\*\*\*\*\*** Max Width of binary tree
