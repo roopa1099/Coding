@@ -135,4 +135,27 @@ h. BFS : Level order
 - [106. Lowest common ancestor](./LowestCommonAnc.java)
 - [107. Children sum property binary tree](./ChildSumProp.java)
 - 108. **\*\*\*\***Important\***\*\*\*\*\*\*** Max Width of binary tree
-- [109. FInd nodes at a distance k from the target node.](./KDistanceNodes.java)
+- [109. Find nodes at a distance k from the target node.](./KDistanceNodes.java)
+
+## Graph
+
+Points:
+
+1. Graph has edges and vertex.
+2. Graph need not be cyclic, Binary Tree is also a Graph
+3. Two types of grapg - Directed and undirected.
+4. Cyclic graph -> Start and end vertex is same.
+5. A node cannot appear twice in a path.
+6. Degree of a node in undirected graph: Number of edges coming/going out(attached) of that node.
+7. Summation of degree of all nodes in degree of graph.
+8. Degree of graph = 2 \* Number of edges(as one edge is attached to 2 nodes.
+9. In directed graph we have indegree(into the node) and outdegree(out from node) graph.
+10. Edge Weight - Weight of edges(usually assigned).
+11. Connected Components: A graph including of unconnected sub graphs.
+
+- [110. BFS Traversal.](./BFSGraph.java)
+- [111. DFS Traversal.](./DFSGraph.java)
+- [112. Find number of disjoint components in a Connected Components structure node.](./ProvinceOrConnectedComponentGraph.java)
+- 113. Given an 2D array of 0s and 1s. Find number of connected components(Connected component contains all 1 node connected.)
+- 114. Flood fill algorithm
+- [115. Find max Time to rotten all oranges.](./RottenOranges.java)
