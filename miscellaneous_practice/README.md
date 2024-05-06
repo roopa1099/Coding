@@ -153,13 +153,20 @@ Points:
 10. Edge Weight - Weight of edges(usually assigned).
 11. Connected Components: A graph including of unconnected sub graphs.
 
-12. Djikshtra's Algo: if u is source and v is destination => 
+Single Source Shortest Path:
+
+12. Djishra's Algo: if u is source and v is destination => 
 
 if(d[u] + cost(u,v) < d(v)){
     d(v) = d(u) +  cost(u,v)
 }
 
-13. 
+13. Minimum of unvisisted node is considered source node for each traversal.
+14. It works for directed and undirected weighted graph with positive nodes.
+
+15. In Belmon Ford, Negative weights are also considered.
+16. The main difference from DS is that, in Dijistra, we check the min weight and then find the shortest part, whereas in Belmon, we need to traverse and check n-1 time that we selected correct values or not in the graph. Where n is number of nodes. The graph must be acyclic
+17. Time complexity for Belmon Ford is more as we need to traverse n-1 times.
 
 - [110. BFS Traversal.](./BFSGraph.java)
 - [111. DFS Traversal.](./DFSGraph.java)
