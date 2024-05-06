@@ -153,6 +153,14 @@ Points:
 10. Edge Weight - Weight of edges(usually assigned).
 11. Connected Components: A graph including of unconnected sub graphs.
 
+12. Djikshtra's Algo: if u is source and v is destination => 
+
+if(d[u] + cost(u,v) < d(v)){
+    d(v) = d(u) +  cost(u,v)
+}
+
+13. 
+
 - [110. BFS Traversal.](./BFSGraph.java)
 - [111. DFS Traversal.](./DFSGraph.java)
 - [112. Find number of disjoint components in a Connected Components structure node.](./ProvinceOrConnectedComponentGraph.java)
