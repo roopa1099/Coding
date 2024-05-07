@@ -155,7 +155,7 @@ Points:
 
 Single Source Shortest Path:
 
-12. Djishra's Algo: if u is source and v is destination => 
+12. Djishra's Algo: if u is source and v is destination =>  "One Source Shortest Path"
 
 if(d[u] + cost(u,v) < d(v)){
     d(v) = d(u) +  cost(u,v)
@@ -164,9 +164,12 @@ if(d[u] + cost(u,v) < d(v)){
 13. Minimum of unvisisted node is considered source node for each traversal.
 14. It works for directed and undirected weighted graph with positive nodes.
 
-15. In Belmon Ford, Negative weights are also considered.
-16. The main difference from DS is that, in Dijistra, we check the min weight and then find the shortest part, whereas in Belmon, we need to traverse and check n-1 time that we selected correct values or not in the graph. Where n is number of nodes. The graph must be acyclic
+15. In Belmon Ford, Negative weights are also considered. "One Source Shortest Path"
+16. The main difference from DS is that, in Dijistra, we check the min weight and then find the shortest part, whereas in Belmon, we need to traverse all n nodes  and check n-1 times that we selected correct values or not in the graph. Where n is number of nodes. The graph must be acyclic
 17. Time complexity for Belmon Ford is more as we need to traverse n-1 times.
+18.  "All Source Shortest Path" : Floyd Warshall.
+19.  First we make D0 matrix, consisting of weights beteen 2 nodes, if no connection then infinity.
+20.  Then we make Dn matrices, where we consider min(dn-1(i,j), dn-1(i,n) + dn-1(n,j), and n-1th row will be same as n-1th row in dn-1.
 
 - [110. BFS Traversal.](./BFSGraph.java)
 - [111. DFS Traversal.](./DFSGraph.java)
